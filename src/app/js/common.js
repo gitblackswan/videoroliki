@@ -189,21 +189,57 @@ $(function() {
 	utm=[];$.each(["utm_source","utm_medium","utm_campaign","utm_term",'source_type','source','position_type','position','added','creative','matchtype'],function(i,v){$('<input type="hidden" />').attr({name: v, class: v, value: function(){if(getURLParameter(v) == undefined)return '-'; else return getURLParameter(v)}}).appendTo("form")});
 	$('<input type="hidden" />').attr({name: 'url', value: document.location.href}).appendTo("form");
 	$('<input type="hidden" />').attr({name: 'title', value: document.title}).appendTo("form");
+	
 
 	function submit_track_event(event) {
-		if (yaCounter) {
-			yaCounter.reachGoal(event);
+
+		if (yaCounter39677785) {
+			yaCounter39677785.reachGoal(event);
 		}
 		if (ga) {
 			ga('send','event','submit',event);
 		}
 	}
 
+
+	$('input[type="radio"]').click(function(e){
+		e.stopPropagation();
+	});
+
+	/*
+
+	$('label').click(function(){
+		if ($(this).find('input[type="radio"]').length>0) {
+			$(this).find('input[type="radio"]').trigger('click');
+		}
+	});
+	*/
+
+	/*$('label').click(function(){
+		var value = $(this).data('value');
+		var step = $(this).data('step');
+
+		$(this).closest('form').find('input[name="'+step+'"]').val(value);
+	});*/
+
 	$('form').submit(function(e) {
+
+
+			console.log('radio_start_______');
+			$('input[type="radio"]').each(function(index, el) {
+				console.log($(this).attr('name'),$(this).val(),$(this).is(':checked'));
+			});
+			console.log('radio_end_______');
+
+
+
+
 		var th = $(this);
 		e.preventDefault();
 		$(this).find('input[type="text"]').trigger('blur');
 		if(!$(this).find('input[type="text"]').hasClass('error-input')){
+
+
 			var type=$(this).attr('method');
 			var url=$(this).attr('action');
 			var data=$(this).serialize();

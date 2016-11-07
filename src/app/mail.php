@@ -2,10 +2,16 @@
 $frm = $_POST['frmid'];
 $name = $_POST['name'];
 $phone = $_POST['phone'];
+
 $quest = $_POST['quest'];
-$step1 = $_POST['step1'],$_POST['you-need-1'];
-$step2 = $_POST['step2'],$_POST['you-need-2'];
-$step3 = $_POST['step3'],$_POST['you-need-3'];
+
+$step1 = $_POST['step1'];
+$step2 = $_POST['step2'];
+$step3 = $_POST['step3'];
+
+$you_need_1 = $_POST['you-need-1'];
+$you_need_2 = $_POST['you-need-2'];
+
 $utm_source = $_POST['utm_source'];
 $utm_medium = $_POST['utm_medium'];
 $utm_campaign = $_POST['utm_campaign'];
@@ -26,14 +32,28 @@ $subject = 'Заявка';
 $headers.= "X-Mailer: PHP/" . phpversion()."\r\n";
 $headers.= "MIME-Version: 1.0" . "\r\n";
 $headers.= "Content-type: text/plain; charset=utf-8\r\n";
-$to = "mr.cabron2@mail.ru";
+//$to = "mr.cabron2@mail.ru";
+$to = 'triowork2@gmail.com';
 $message = "Форма: $frm\n\n";
 $message .= "Имя: $name\n";
 $message .= "Телефон: $phone\n\n";
+
+if(isset($_POST['quest'])){
 $message .= "Вопрос: $quest\n\n";
-$message .= "Зачем вам ролик?: $step1\n\n";
-$message .= "Какая будет продолжительность у ролика?: $step2\n\n";
+}
+
+
+//if(isset($_POST['step1'])){
+$message .= "Зачем вам ролик?: $step1\n";
+$message .= "Какая будет продолжительность у ролика?: $step2\n";
 $message .= "Сколько времени у нас есть на реализацию?: $step3\n\n";
+//}
+
+//if(isset($_POST['you-need-1'])){
+$message .= "Для чего вам ролик?: $you_need_1\n";
+$message .= "Почему его до сих пор у Вас нет?: $you_need_2\n\n";
+//}
+
 $message .= "Источник: $utm_source\n";
 $message .= "Тип источника: $utm_medium\n";
 $message .= "Кампания: $utm_campaign\n";
