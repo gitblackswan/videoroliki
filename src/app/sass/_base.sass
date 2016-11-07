@@ -1,0 +1,350 @@
+@import "bourbon"
+@import "vars"
+
+*::-webkit-input-placeholder
+	color: #7a7eba
+	opacity: 1
+	font-family: 'OpenSans',sans-serif
+	font-size: 14px
+	line-height: 18px
+	font-weight: 600
+	font-style: italic
+
+*:-moz-placeholder
+	color: #7a7eba
+	opacity: 1
+	font-family: 'OpenSans',sans-serif
+	font-size: 14px
+	line-height: 18px
+	font-weight: 600
+	font-style: italic
+
+*::-moz-placeholder
+	color: #7a7eba
+	opacity: 1
+	font-family: 'OpenSans',sans-serif
+	font-size: 14px
+	line-height: 18px
+	font-weight: 600
+	font-style: italic
+
+*:-ms-input-placeholder
+	color: #7a7eba
+	opacity: 1
+	font-family: 'OpenSans',sans-serif
+	font-size: 14px
+	line-height: 18px
+	font-weight: 600
+	font-style: italic
+
+::selection
+	background-color: #797fbd
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.6
+	font-family: $default-font
+	overflow-x: hidden
+	color: #fff
+	font-weight: normal!important
+	margin: 0
+	-webkit-font-smoothing: antialiased
+
+.scroll-none
+	overflow: hidden
+
+*
+	box-sizing: border-box
+
+section
+	height: 100vh
+	width: 100%
+	background-repeat: no-repeat
+	background-position: center
+	background-size: cover
+	position: relative
+	min-height: 600px
+	display: block
+	text-align: center
+	padding: 0 50px
+	float: left
+	overflow: hidden
+
+.clearfix:after
+  content: ""
+  display: table
+  clear: both
+
+.wrapper
+	max-width: 980px
+	height: 100%
+	position: relative
+	margin: 0 auto
+
+.wrapper-inner
+	width: 100%
+	min-height: 600px
+	position: absolute
+	top: 50%
+	margin: -300px auto 0
+	&.bg 
+		&:after
+			position: absolute
+			content: ''
+			width: 1140px
+			height: 720px
+			top: -60px
+			left: -80px
+			background-color: #1d1f2f
+			border-radius: 5px
+			box-shadow: 0 35px 50px -20px rgba(black,.5)
+
+.hidden
+	display: none
+
+span
+	display: block
+
+.slide
+	outline: none
+
+a
+	text-decoration: none!important
+	outline: none!important
+	transition: all .25s
+	font-weight: normal
+
+div
+	box-sizing: border-box!important
+
+input
+	outline: none!important
+	&.error-input
+		border-color: #d91768
+
+button
+	outline: none!important
+	cursor: pointer
+	padding: 0
+	overflow: visible
+
+a.main,button.main
+	position: relative
+	display: inline-block
+	border: 0
+	background-color: transparent
+	font-size: 14px
+	font-family: 'OpenSans',sans-serif
+	font-weight: 600
+	&:before,&:after
+		content: ''
+		position: absolute
+		border: 2px solid #004563
+		width: 100%
+		height: 100%
+		top: 0px
+		left: 4px
+		border-radius: 30px
+		transform: rotate(1deg)
+	&:after
+		border-color: #ff3b8d
+		top: -2px
+		left: -5px
+		transform: rotate(-2deg)
+	&:hover
+		span
+			background-color: $accent-light
+			color: #fff
+	span
+		content: ''
+		position: relative
+		z-index: 1
+		width: 100%
+		left: 0
+		top: 0
+		height: 100%
+		font-weight: 700
+		border: 3px solid $accent-light
+		transition: all, .25s
+		border-radius: 30px
+		text-transform: uppercase
+		color: $accent
+		padding: 10px 25px
+
+a.circle,button.arrow
+	width: 50px
+	height: 50px
+	background-color: transparent
+	border-radius: 50%
+	position: relative
+	z-index: 1
+	padding: 0
+	border: 0
+	&.close
+		position: absolute
+		span.circle
+			&:after
+				display: none!important
+			span.arrow
+				top: 23px
+				left: 12px
+				&:before,&:after
+					width: 22px
+				&:after
+					top: 0
+		&:before
+			left: 0
+			top: 0
+		&:after
+			top: -4px
+			left: 1px
+	&:before,&:after
+		content: ''
+		position: absolute
+		border: 2px solid #004563
+		width: 50px
+		height: 50px
+		top: 3px
+		left: 1px
+		border-radius: 50%
+	&:after
+		border-color: #ff3b8d
+		top: -3px
+		left: 2px
+	&:hover
+		span.circle
+			background-color: $accent-light
+		span.burger,span.arrow
+			border-color: #fff!important
+			&:before,&:after
+				border-color: #fff!important
+	span
+		transition: all,.25s
+		&:before,&:after
+			transition: all,.25s
+	span.circle
+		content: ''
+		position: relative
+		border-radius: 50%
+		width: 50px
+		height: 50px
+		border: 2px solid $accent-light
+		z-index: 1
+		span.arrow
+			top: 18px
+			left: 16px
+			position: absolute
+	&.next
+		span.circle span.arrow
+			transform: rotate(180deg)
+			top: 28px
+			left: 30px
+	&.arrow
+		span.circle:after
+			position: absolute
+			content: 'Предыдущий ролик'
+			font-family: 'OpenSans',sans-serif
+			font-weight: 600
+			font-style: italic
+			display: none
+			width: 160px
+			left: 165px
+			top: 15px
+			font-size: 14px
+			line-height: 16px
+			color: #7a7eba
+			transition: opacity, .25s
+	&:hover
+		span.circle:after
+			display: block
+	&.next
+		span.circle:after
+			content: 'Следующий ролик'
+			left: 100px
+	span.burger
+		width: 15px
+		border-bottom: 2px solid $accent-light
+		position: absolute
+		top: 22px
+		left: 15px
+		transition: all, .25s
+		z-index: 1
+		&:before,&:after
+			border-bottom: 2px solid $accent-light
+			left: 0
+			width: 100%
+			position: absolute
+			content: ''
+			top: -5px
+			transition: all, .25s
+		&:after
+			top: 5px
+	span.arrow
+		position: absolute
+		top: 25px
+		left: 25px
+		&:before,&:after
+			content: ''
+			position: absolute
+			width: 12px
+			border-bottom: 2px solid $accent-light
+			transform: rotate(-45deg)
+		&:after
+			top: 8px
+			transform: rotate(45deg)
+
+h1
+	font-family: "EBGaramond", sans-serif
+	font-weight: 400
+	text-transform: uppercase
+	color: #fff
+	font-size: 42px
+	line-height: 50px
+	margin: 0 auto 25px
+
+span.h1-subtitle
+	color: #fff
+	font-weight: 600
+	text-transform: uppercase
+	font-size: 16px
+	margin: auto
+
+span.accent
+	color: #7a7eba
+	font-weight: 600
+	font-style: italic
+	font-size: 14px
+	line-height: 16px
+	display: inline-block
+	&::selection
+		background-color: #161d62
+
+span.white
+	font-size: 14px
+	color: #fff 
+	font-family: 'Roboto',sans-serif
+	line-height: 16px
+	font-weight: 400
+
+h2
+	font-family: "EBGaramond", sans-serif
+	font-weight: 400
+	text-transform: uppercase
+	color: #fff
+	font-size: 24px
+
+h3
+	font-size: 16px
+	text-transform: uppercase
+	font-weight: 600
+	line-height: 20px
+	color: #fff

@@ -1,0 +1,913 @@
+@import "bourbon"
+@import "vars"
+@import "libs"
+
+.button
+
+nav
+	background-color: rgba(#797fbd,.97)
+	position: fixed
+	top: 0
+	left: 0
+	height: 540px
+	padding: 70px 0 90px
+	width: 100%
+	z-index: 4
+	transition: transform, .75s
+	button.arrow
+		top: 0
+		left: 25px
+		span.circle
+			border-color: #fff
+			span.arrow
+				&:before,&:after
+					border-color: #fff
+				&:after
+		&:before
+			border-color: rgba(#fff,.95)
+		&:after
+			border-color: rgba(#fff,.90)
+		&:hover
+			span.circle
+				background-color: #FFF
+				span.arrow
+					&:before,&:after
+						border-color: #797fbd!important
+	.inner
+		max-width: 980px
+		margin: auto
+		display: table
+		height: 100%
+		position: relative
+	ul
+		padding: 0
+		vertical-align: bottom
+		display: table-cell
+		list-style: none
+		text-align: justify
+	li 
+		margin-bottom: 20px
+		display: inline-block
+	a 
+		color: #fff 
+		font-size: 14px
+		line-height: 18px
+		font-weight: 600
+		text-transform: uppercase
+		padding: 16px 23px
+		border-radius: 30px
+		display: inline-block
+		&:hover
+			color: #777bb5
+			background-color: #fff
+	&.is-open
+		transform: translate3d(0,0,0)
+	&.is-close
+		transform: translate3d(0,-100%,0)
+
+
+section.our-works
+	background-image: url("../img/choose-bg.jpg")
+	overflow: hidden
+	.wrapper-inner
+		position: absolute
+		&:before
+			position: absolute
+			top: 255px
+			left: -320px
+			content: ''
+			width: 281px
+			height: 290px
+			background-image: url("../img/board.png")
+			background-repeat: no-repeat
+			z-index: 1
+	.inner
+		margin-top: 60px
+		position: relative
+		z-index: 1
+	.block
+		width: 50%
+		float: left
+	h2
+		text-align: left
+	.right
+		padding: 0 25px
+		.tab-cont
+			margin-top: 35px
+			max-height: 250px
+			overflow: auto
+			h3
+				margin: 0 0 20px
+		.tabs .tab 
+			min-width: 160px
+	.top
+		.block
+			padding: 0 25px
+		h2
+			font-size: 16px
+			margin: 5px 0 15px
+	.company
+		display: none
+	.tabs
+		text-align: left
+		margin-bottom: 25px
+		.tab
+			cursor: pointer
+			padding: 6px 10px
+			min-width: 105px
+			text-align: center
+			display: inline-block
+			color: $accent
+			line-height: normal
+			border: 1px solid #797fbd
+			font-size: 11px
+			font-weight: 600
+			border-radius: 20px
+			margin-right: 4px
+			&:hover
+				color: #fff
+				background-color: #797fbd
+			&.active
+				color: #fff
+				background-color: #797fbd
+	.content
+		text-align: left
+		.left
+			position: relative
+		.slide
+			outline: none
+			h2 
+				margin: 5px 0 15px
+		.slick-track
+			min-width: 980px
+			width: 23980px!important
+		p 
+			font-size: 14px
+			color: #fff 
+			font-weight: 600
+			line-height: 18px
+		button
+			margin: 10px 8px 0 0
+		.tab-cont
+			display: none
+			.h2
+				display: table
+				min-height: 60px
+				padding: 0 25px
+				margin: 5px 0 15px
+				h2
+					font-size: 24px
+					line-height: 30px	
+					display: table-cell
+					vertical-align: middle
+			&.active
+				display: block
+	.buttons
+		text-align: left
+		&-mobile
+			display: none
+
+.video
+	width: 100%
+	max-width: 486px
+	height: auto
+	position: relative
+	padding: 13px 25px 30px 25px
+	img.lines
+		position: absolute
+		top: 0
+		left: 0
+		width: 100%
+.video-inner
+	width: 100%
+	height: 100%
+	max-width: 432px
+	height: 247px
+	background-color: #000
+	position: relative
+	cursor: pointer
+	span
+		display: none
+	iframe
+		width: 100%
+		height: 100%
+	&.no-button
+		&:after,&:before
+			display: none
+	&:hover:after
+		background-color: rgba(#fff,.8)
+	&:before
+		content: ''
+		position: absolute
+		top: 0
+		left: 0
+		width: 100%
+		height: 100%
+	&:after
+		position: absolute
+		content: ''
+		left: 50%
+		top: 50%
+		width: 127px
+		height: 127px
+		margin: -63px 0 0 -63px
+		background-image: url("../img/play-icon.png")
+		background-position: center
+		background-color: rgba(#fff,.6)
+		background-repeat: no-repeat
+		transition: all,.25s
+		border-radius: 50%
+	
+section.application
+	background-image: url("../img/form-bg.jpg")
+	padding: 0
+	.wrapper-inner
+		padding-top: 40px
+	span.accent
+		max-width: 390px		
+	h2
+		font-size: 19px
+		line-height: 24px	
+	span.accent
+		margin-bottom: 25px
+	.block
+		width: auto
+		&.left
+			width: 155px
+		&.right
+			float: right
+	form
+		background-image: url("../img/form-inner-bg.png")
+		height: 310px
+		background-repeat: no-repeat
+		background-position: left top
+		h2
+			margin: 50px auto 40px
+	label
+		width: 208px
+		margin: 0 28px 0 0
+		background-color: #2c2f46
+		display: inline-block
+		border-radius: 5px
+		transition: background-color, .25s
+		cursor: pointer
+		padding: 18px 15px
+		box-shadow: 0 15px 30px -10px rgba(black,.4)
+		vertical-align: top
+		min-height: 135px
+		float: left
+		box-sizing: border-box
+		&:nth-of-type(4)
+			margin-right: 0
+		&:hover,&.active
+			background-color: #b41a5e
+		span
+			color: #fff
+			font-weight: 600
+			font-size: 14px
+			line-height: 18px
+		input
+			display: none
+		span.icon
+			height: 65px
+			background-position: center
+			background-repeat: no-repeat
+	.step
+		display: none
+		&.active
+			display: inline-block!important
+	.step-1
+		label:nth-of-type(1) span.icon
+			background-image: url("../img/step-1-1.png")
+		label:nth-of-type(2) span.icon
+			background-image: url("../img/step-1-2.png")
+		label:nth-of-type(3) span.icon
+			background-image: url("../img/step-1-3.png")
+		label:nth-of-type(4) span.icon
+			background-image: url("../img/step-1-4.png")	
+	.step-2
+		label
+			line-height: 135px
+			padding: 0 15px
+		span
+			font-size: 14px
+			display: inline-block
+			vertical-align: middle
+			span
+				font-size: 48px
+				line-height: 48px
+				vertical-align: middle
+	.step-3
+		label
+			span
+				font-size: 14px
+		label:nth-of-type(1) span.icon
+			background-image: url("../img/step-3-1.png")
+		label:nth-of-type(2) span.icon
+			background-image: url("../img/step-3-2.png")
+		label:nth-of-type(3) span.icon
+			background-image: url("../img/step-3-3.png")
+		label:nth-of-type(4) span.icon
+			background-image: url("../img/step-3-4.png")
+	.step-4
+		h2
+			max-width: 520px
+			margin: 30px auto
+			span
+				display: inline-block
+				font-family: "OpenSans", sans-serif
+				font-weight: 400
+				font-size: 24px
+		.button
+			display: inline-block
+	.buttons-1
+		max-width: 670px
+		margin: auto
+		text-align: left
+	button.arrow
+		margin: 0 8px 0 0
+		span.circle:after
+			content: 'Назад'
+			left: 35px
+
+.form
+	background-color: #2c2f46
+	padding: 45px
+	text-align: center
+	width: 920px
+	border-radius: 5px
+	box-shadow: 0 15px 30px -10px rgba(black,.4)
+	&-inner
+		display: inline-block
+	button
+		min-width: 212px
+		span
+			padding: 14px 10px
+			font-size: 14px
+	input
+		float: left
+		width: 225px
+		margin-right: 12px
+		background-color: #111524
+		padding: 15px 25px
+		border: 2px solid #111524
+		box-sizing: border-box
+		line-height: 14px
+		font-size: 14px
+		border-radius: 30px
+		color: #fff
+		font-weight: 400
+		font-family: 'OpenSans',sans-serif
+		&.error-input
+			border-color: #ea176e
+		&:nth-of-type(2)
+			margin-right: 30px
+
+section.reviews
+	background-color: #0d0e1b
+	h2
+		font-size: 30px
+		line-height: 36px
+	span.accent
+		max-width: 390px
+	.wrapper-inner
+		position: absolute
+	.inner
+		position: relative
+		z-index: 1
+		margin-top: 60px
+	.reviews-slider
+		position: relative
+		button.arrow
+			position: absolute
+			left: 355px
+			top: 75px
+			&.next
+				left: 420px
+			span.circle:after
+				display: none
+		.slide:nth-of-type(1)
+			span.icon
+				background-image: url("../img/transel.png")
+		.slide:nth-of-type(2)
+			span.icon
+				background-image: url("../img/nayada.png")
+		.slide:nth-of-type(3)
+			span.icon
+				background-image: url("../img/revital.png")
+	.block
+		float: left
+		margin-top: 65px
+	.right
+		width: 52%
+		.video
+			max-width: 500px
+			margin: auto
+			padding: 25px
+			&-inner
+				margin: auto
+				background-color: #333
+		img
+			position: absolute
+	.mobile-desc
+		display: none
+	.left
+		width: 48%
+		max-height: 350px
+		height: 350px
+		.title
+			text-align: left
+		.text
+			margin: 10px 0 0
+		span.icon
+			background-image: url("../img/transel.png")
+			background-repeat: no-repeat
+			background-position: center
+			background-size: 100% auto
+			width: 75px
+			height: 50px
+			display: inline-block
+			vertical-align: middle
+			margin-top: 10px
+		button
+			margin-right: 8px
+			vertical-align: middle
+			&:nth-of-type(2)
+				margin-right: 0
+			span.circle:after
+				display: none
+		h3
+			display: inline-block
+			vertical-align: middle
+			padding: 0 15px
+			width: 100%
+			max-width: 270px
+			text-align: left
+		p 
+			font-weight: 300
+			font-size: 16px
+			font-style: italic
+			text-align: left
+			max-width: 460px
+			padding: 10px 30px
+			position: relative
+			margin: auto
+			overflow: auto
+			&:before,&:after
+				content: ''
+				position: absolute
+				background-image: url("../img/quotes.png")
+				top: 2px
+				left: 0
+				height: 15px
+				width: 23px
+				font-size: 60px
+				line-height: normal		
+				color: #535682
+			&:after
+				top: auto
+				left: auto
+				right: 0px
+				bottom: 2px
+				transform: rotate(180deg)
+
+section.costs
+	background-image: url("../img/costs-bg.jpg")
+	padding: 0
+	.wrapper-inner
+		padding-top: 50px
+	h2
+		margin: 0 auto
+		padding: 0 15px
+	.inner
+		position: relative
+		margin-top: 55px
+		min-height: 340px
+		&:before
+			content: ''
+			position: absolute
+			top: 0
+			left: 50%
+			margin-left: -390px
+			width: 780px
+			height: 255px
+			background-color: #1d1f2f
+			border-radius: 5px
+		&:after
+			width: 100%
+			height: 100%
+			position: absolute
+			background-image: url("../img/costs-lines.png")
+			content: ''
+			top: 15px
+			background-repeat: no-repeat
+			background-position: center
+			left: 0
+	.blocks
+		padding-top: 55px
+	.block
+		width: 50%
+		float: left
+		span.accent
+			position: absolute
+			top: -18px
+			right: 28px
+			color: #7a7eba
+			font-weight: 600
+			font-style: italic
+			font-size: 14px
+			line-height: 18px
+			display: inline-block
+		.video-inner
+			background-color: #333
+	.video
+		position: relative
+		z-index: 1
+
+section.company
+	background-color: #0d0e1b
+	.inner
+		position: relative
+		z-index: 1
+		text-align: left
+		margin-top: 50px
+		img.imac
+			float: left
+	.block
+		width: 50%
+	.form
+		background-color: transparent
+		box-shadow: none
+		display: inline-block
+		float: right
+		max-width: 460px
+		text-align: left
+		padding: 15px 0 0
+		h2,h3
+			text-align: left
+			&.vebinar
+				max-width: 300px
+		h2
+			line-height: 32px
+			font-size: 30px
+			margin: 25px 0 30px
+			max-width: 450px
+		.form-inner
+			z-index: 2
+			position: relative
+			background-color: #25273a
+			padding: 40px 40px 30px
+			border-radius: 5px
+			box-shadow: 0 35px 40px -25px rgba(black,.4)
+			width: 560px
+			text-align: center
+			button
+				margin-top: 25px
+			input:nth-of-type(2)
+				margin-right: 10px
+
+
+section.you-need
+	background-image: url("../img/you-need-bg.jpg")
+	text-align: left
+	padding: 0
+	.inner
+		margin-top: 60px
+	h2
+		font-size: 30px
+		max-width: 390px
+		margin: 0 auto 20px
+		text-align: center
+		line-height: 36px
+	.content
+		max-width: 830px
+		margin: auto
+		position: relative
+		&:after
+			content: ''
+			position: absolute
+			left: -35px
+			z-index: 0
+			top: -10px
+			width: 100%
+			height: 115%
+			background-image: url("../img/you-need-lines.png")
+			background-size: cover
+		.content-inner
+			background-color: #1d1f2f
+			z-index: 1
+			position: relative
+			min-height: 360px
+			border-radius: 7px
+		span.title
+			max-width: 550px
+			font-family: 'OpenSans',sans-serif
+			font-size: 14px
+			padding: 0 10px
+			font-weight: 600
+			margin: auto
+			text-align: center
+			line-height: 30px
+			margin-bottom: 52px
+	form
+		.form
+			width: 100%
+			background-color: #23273a
+			padding: 25px 10px 45px
+		.step
+			display: none
+			&.active
+				display: block!important
+			.step-inner
+				display: inline-block
+			&-1
+				margin-left: -40px
+				width: 904px
+				padding-top: 30px
+				h3
+					margin-bottom: 40px
+					text-align: center
+				label
+					margin-right: 30px
+					&:last-child
+						margin-right: 0
+			&-2
+				margin: auto
+				padding-top: 30px
+				text-align: center
+				h3
+					margin-bottom: 40px
+				label
+					width: 203px
+					margin-right: 34px
+					&:last-child
+						margin-right: 0
+			&-3
+				padding-top: 52px
+			&.active
+				display: block
+		h3
+			max-width: 460px
+			margin: 0 auto 25px
+			line-height: 24px
+		.button
+			display: inline-block
+		label
+			box-shadow: 0 15px 30px -10px rgba(black,.4)
+			width: 156px
+			height: 130px
+			display: table
+			text-align: center
+			border-radius: 7px
+			background-color: #2c2f46
+			transition: all, .25s 
+			padding: 0 10px
+			float: left
+			cursor: pointer
+			&:hover,&.active
+				background-color: #b41a5e
+			span
+				font-family: 'OpenSans',sans-serif
+				font-size: 13px
+				font-weight: 600
+				display: table-cell
+				vertical-align: middle
+			input
+				display: none
+	.buttons-2
+		max-width: 750px
+		margin: 20px auto 0
+		text-align: left
+	button.arrow
+		margin: 0 8px 0 0
+		span.circle:after
+			content: 'Назад'
+			left: 35px
+
+section.leading
+	background-color: #0d0e1b
+	h2
+		margin: 0 0 65px
+		font-size: 30px
+		line-height: 36px
+	a.main
+		min-width: 212px
+		span.circle
+			padding: 10px
+	h3
+		max-width: 700px
+		margin: 0 auto 25px
+		line-height: 22px
+	.inner
+		position: relative
+		z-index: 1
+		margin-top: 60px
+	.block
+		margin-bottom: 50px
+		position: relative
+		z-index: 1
+		&.middle
+			margin-bottom: 0
+
+section.faq
+	background-image: url("../img/faq-bg.jpg")
+	padding: 0 25px
+	h2
+		font-size: 30px
+		margin: 20px auto 55px
+	.inner
+		margin-top: 80px
+	.block
+		width: 50%
+		float: left
+	p 
+		font-size: 16px
+		font-weight: 300
+		font-style: italic
+		text-align: left
+		margin: 0
+	.content
+		.left
+			background-color: #1d1f2f
+			border-radius: 5px
+	ul.desc-list
+		margin: 0
+		padding: 18px 38px
+		list-style: none
+		li 
+			font-weight: 600
+			text-transform: uppercase
+			font-size: 16px
+			padding: 17px 10px
+			cursor: pointer
+			margin-bottom: 5px
+			transition: all, .25s
+			&.active,&:hover
+				background-color: #2c2f46
+				box-shadow: 0 15px 30px -10px rgba(black,.4)
+				border-radius: 5px
+	.wrapper
+		max-width: 1080px
+	.desc
+		display: none
+		padding: 20px 55px
+		max-height: 280px
+		overflow: auto
+		&.active
+			display: block
+	.accordeon
+		display: none
+		max-width: 450px
+		margin: auto
+		dl 
+			margin: 15px 0
+		dt 
+			font-weight: 600
+			text-transform: uppercase
+			font-size: 18px
+			padding: 17px 10px
+			cursor: pointer
+			margin-bottom: 5px
+			transition: all, .25s
+			background-color: #2c2f46
+			box-shadow: 0 15px 30px -10px rgba(black,.4)
+			border-radius: 5px
+			position: relative
+			&.active
+				&:before
+					content: ''
+					position: absolute
+					bottom: -10px
+					left: 30px
+					border-top: 10px solid #2c2f46
+					border-right: 10px solid transparent
+					border-left: 10px solid transparent
+				
+		dd
+		 	margin: 0
+		 	padding: 30px 25px 10px
+		 	p 
+		 		margin-bottom: 25px
+
+section.map
+	background-image: url("../img/map-bg.jpg")
+	padding: 0 25px
+	h2
+		max-width: 310px
+		line-height: 28px
+		text-align: left
+	.google-map
+		width: 820px
+		height: 315px
+		background-color: #505b6c
+	.inner
+		position: relative
+		margin-top: 100px
+	.form
+		position: absolute
+		top: 0
+		right: 0
+
+.popup-form,.map-form
+	max-width: 540px
+	background-color: #1d1f2f
+	padding: 30px 40px
+	position: relative
+	margin: auto
+	a.mail
+		color: #fff
+	.mfp-close
+		display: none
+	button.close
+		position: absolute
+		top: -70px
+		right: 0
+		min-width: auto
+		margin: 0
+		span
+			padding: 0
+	.title
+		font-size: 12px
+		font-weight: 400
+		text-transform: uppercase
+		position: relative
+		span.address
+			margin: 0
+			text-transform: uppercase
+			display: inline-block
+		span
+			text-transform: none
+			margin-left: 20px
+		&:after
+			position: absolute
+			content: ''
+			width: 82px
+			left: 50%
+			bottom: -20px
+			margin-left: -41px
+			border-bottom: 1px solid #494d75
+	input,input:nth-of-type(2)
+		margin: 12px 0 0 0
+	input[name='quest']
+		width: 100%
+	input[name='name']
+		margin-right: 10px
+	button
+		margin-top: 20px
+	h3
+		margin: 40px auto 15px
+
+.popup-window
+	width: 300px!important
+	background-color: #111524
+	margin: auto
+	padding: 30px 20px!important
+	border-radius: 5px
+	position: relative
+	.mfp-close
+		display: none
+	button.close
+		position: absolute
+		top: -70px
+		right: 0
+		min-width: auto
+		margin: 0
+		span
+			padding: 0
+
+	.text
+		color: #7a7eba
+		font-weight: 600
+		font-style: italic
+		font-size: 14px
+		line-height: 16px
+		text-align: center
+
+.mfp-container
+	padding: 0
+
+.mfp-fade.mfp-bg
+	opacity: .8
+	background: #070814
+	transition: all .25s
+
+.mfp-counter
+	visibility: hidden
+
+.mfp-fade.mfp-bg.mfp-ready
+	opacity: .8
+.mfp-fade.mfp-bg.mfp-removing
+	opacity: 0
+
+.mfp-fade.mfp-wrap .mfp-content
+	opacity: 0
+	transition: all .5s
+
+.mfp-fade.mfp-wrap
+	overflow: hidden
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content
+	opacity: 1
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content
+	opacity: 0
+
+@import "media"

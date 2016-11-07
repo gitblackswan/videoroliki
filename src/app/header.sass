@@ -1,0 +1,309 @@
+@import "bourbon"
+@import "sass/vars"
+@import "sass/base"
+
+//First screen styles
+
+.preloader
+	width: 100%
+	height: 100%
+	position: fixed
+	left: 0
+	top: 0
+	background-color: #1d1f2f
+	z-index: 11
+
+.cssload-thecube
+  width: 73px
+  height: 73px
+  margin: 0 auto
+  top: 50%
+  margin-top: -32px
+  position: relative
+  transform: rotateZ(45deg)
+  -o-transform: rotateZ(45deg)
+  -ms-transform: rotateZ(45deg)
+  -webkit-transform: rotateZ(45deg)
+  -moz-transform: rotateZ(45deg)
+  .cssload-cube
+    position: relative
+    transform: rotateZ(45deg)
+    -o-transform: rotateZ(45deg)
+    -ms-transform: rotateZ(45deg)
+    -webkit-transform: rotateZ(45deg)
+    -moz-transform: rotateZ(45deg)
+    float: left
+    width: 50%
+    height: 50%
+    position: relative
+    transform: scale(1.1)
+    -o-transform: scale(1.1)
+    -ms-transform: scale(1.1)
+    -webkit-transform: scale(1.1)
+    -moz-transform: scale(1.1)
+    &:before
+      content: ""
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+      background-color: #7f6fb1
+      animation: cssload-fold-thecube 2.76s infinite linear both
+      -o-animation: cssload-fold-thecube 2.76s infinite linear both
+      -ms-animation: cssload-fold-thecube 2.76s infinite linear both
+      -webkit-animation: cssload-fold-thecube 2.76s infinite linear both
+      -moz-animation: cssload-fold-thecube 2.76s infinite linear both
+      transform-origin: 100% 100%
+      -o-transform-origin: 100% 100%
+      -ms-transform-origin: 100% 100%
+      -webkit-transform-origin: 100% 100%
+      -moz-transform-origin: 100% 100%
+  .cssload-c2
+    transform: scale(1.1) rotateZ(90deg)
+    -o-transform: scale(1.1) rotateZ(90deg)
+    -ms-transform: scale(1.1) rotateZ(90deg)
+    -webkit-transform: scale(1.1) rotateZ(90deg)
+    -moz-transform: scale(1.1) rotateZ(90deg)
+  .cssload-c3
+    transform: scale(1.1) rotateZ(180deg)
+    -o-transform: scale(1.1) rotateZ(180deg)
+    -ms-transform: scale(1.1) rotateZ(180deg)
+    -webkit-transform: scale(1.1) rotateZ(180deg)
+    -moz-transform: scale(1.1) rotateZ(180deg)
+  .cssload-c4
+    transform: scale(1.1) rotateZ(270deg)
+    -o-transform: scale(1.1) rotateZ(270deg)
+    -ms-transform: scale(1.1) rotateZ(270deg)
+    -webkit-transform: scale(1.1) rotateZ(270deg)
+    -moz-transform: scale(1.1) rotateZ(270deg)
+  .cssload-c2:before
+    animation-delay: 0.35s
+    -o-animation-delay: 0.35s
+    -ms-animation-delay: 0.35s
+    -webkit-animation-delay: 0.35s
+    -moz-animation-delay: 0.35s
+  .cssload-c3:before
+    animation-delay: 0.69s
+    -o-animation-delay: 0.69s
+    -ms-animation-delay: 0.69s
+    -webkit-animation-delay: 0.69s
+    -moz-animation-delay: 0.69s
+  .cssload-c4:before
+    animation-delay: 1.04s
+    -o-animation-delay: 1.04s
+    -ms-animation-delay: 1.04s
+    -webkit-animation-delay: 1.04s
+    -moz-animation-delay: 1.04s
+
+@keyframes cssload-fold-thecube
+  0%, 10%
+    transform: perspective(136px) rotateX(-180deg)
+    opacity: 0
+
+  25%,
+				75%
+    transform: perspective(136px) rotateX(0deg)
+    opacity: 1
+
+  90%,
+				100%
+    transform: perspective(136px) rotateY(180deg)
+    opacity: 0
+
+
+@-o-keyframes cssload-fold-thecube
+  0%, 10%
+    -o-transform: perspective(136px) rotateX(-180deg)
+    opacity: 0
+
+  25%,
+				75%
+    -o-transform: perspective(136px) rotateX(0deg)
+    opacity: 1
+
+  90%,
+				100%
+    -o-transform: perspective(136px) rotateY(180deg)
+    opacity: 0
+
+
+@-ms-keyframes cssload-fold-thecube
+  0%, 10%
+    -ms-transform: perspective(136px) rotateX(-180deg)
+    opacity: 0
+
+  25%,
+				75%
+    -ms-transform: perspective(136px) rotateX(0deg)
+    opacity: 1
+
+  90%,
+				100%
+    -ms-transform: perspective(136px) rotateY(180deg)
+    opacity: 0
+
+
+@-webkit-keyframes cssload-fold-thecube
+  0%, 10%
+    -webkit-transform: perspective(136px) rotateX(-180deg)
+    opacity: 0
+
+  25%,
+				75%
+    -webkit-transform: perspective(136px) rotateX(0deg)
+    opacity: 1
+
+  90%,
+				100%
+    -webkit-transform: perspective(136px) rotateY(180deg)
+    opacity: 0
+
+
+@-moz-keyframes cssload-fold-thecube
+  0%, 10%
+    -moz-transform: perspective(136px) rotateX(-180deg)
+    opacity: 0
+
+  25%,
+				75%
+    -moz-transform: perspective(136px) rotateX(0deg)
+    opacity: 1
+
+  90%,
+				100%
+    -moz-transform: perspective(136px) rotateY(180deg)
+    opacity: 0
+
+section.header 
+	background-image: url("../img/header-bg.jpg")
+	.top-line 
+		padding-top: 25px
+		z-index: 3
+		.block
+			width: 33.333%
+			float: left
+		.inner
+			max-width: 980px
+			margin: auto
+		&.fixed
+			position: fixed
+			top: 0
+			left: 0
+			padding: 25px 50px 0
+			width: 100%
+			background-color: rgba(#2c2f46,.7)
+			transition: all, .25s
+			&.no-bg
+				background-color: transparent
+		.middle
+			width: 20%
+		.left,.right
+			width: 40%
+		a
+			display: inline-block
+	.left
+		text-align: left
+	.right
+		text-align: right
+	a.logo
+		max-width: 132px
+		margin-top: -20px	
+	a.phone
+		width: 50px
+		height: 50px
+		border-radius: 50%
+		border: 2px solid $accent-light	
+		float: right
+		span.circle
+			background-image: url("../img/phone-icon.png")
+			background-position: center
+			background-repeat: no-repeat
+			transition: none
+			transition: background-color, .25s
+		&:hover
+			span.circle
+				background-image: url("../img/phone-white-icon.png")
+				background-position: center
+				background-repeat: no-repeat
+	span.numbers
+		display: inline-block
+		max-width: 220px
+		margin: 15px 20px 0 0
+		height: 100%
+		a.number
+			font-weight: 600
+			color: #fff
+			border-bottom: 1px solid transparent
+			line-height: 20px
+			&:hover
+				border-color: #fff
+	.content
+		padding: 110px 0
+		text-align: center
+		position: relative
+		min-height: 410px
+	span.h1-subtitle
+		max-width: 600px
+		margin-bottom: 30px
+	span.accent
+		max-width: 305px
+	.button
+		left: 0
+		bottom: -70px
+		width: 100%
+		text-align: center
+		position: absolute
+
+
+.bottom
+	position: absolute
+	bottom: 0
+	left: 0
+	width: 100%
+	height: 50px
+	.inner
+		max-width: 980px
+		margin: auto
+	&.fixed
+		position: fixed
+		bottom: 0
+		left: 0
+		padding: 0 50px
+		width: 100%
+		z-index: 3
+		background-color: rgba(#2c2f46,.7)
+		transition: all, .25s
+		&.no-bg
+			background-color: transparent
+	.block
+		width: 50%
+		float: left
+	span.white
+		margin-top: 18px
+ul.social
+	list-style: none
+	display: inline-block
+	padding: 0
+	height: 25px
+	margin: 13px 0 0
+	li 
+		display: inline-block
+		a
+			display: block
+			width: 25px
+			height: 25px
+			margin-right: 7px
+			background-image: url("../img/instagram.png")
+			background-position: center
+			background-repeat: no-repeat
+			&:hover
+				background-image: url("../img/instagram-hover.png")
+	li:nth-of-type(2) a
+		background-image: url("../img/vk.png")
+		&:hover
+			background-image: url("../img/vk-hover.png")
+	li:nth-of-type(3) a
+		background-image: url("../img/fb.png")
+		&:hover
+			background-image: url("../img/fb-hover.png")
