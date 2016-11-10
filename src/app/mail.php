@@ -33,7 +33,7 @@ $headers.= "X-Mailer: PHP/" . phpversion()."\r\n";
 $headers.= "MIME-Version: 1.0" . "\r\n";
 $headers.= "Content-type: text/plain; charset=utf-8\r\n";
 //$to = "mr.cabron2@mail.ru";
-$to = 'triowork2@gmail.com';
+$to = 'videomarketing@mail.ru';
 $message = "Форма: $frm\n\n";
 $message .= "Имя: $name\n";
 $message .= "Телефон: $phone\n\n";
@@ -42,17 +42,16 @@ if(isset($_POST['quest'])){
 $message .= "Вопрос: $quest\n\n";
 }
 
-
-//if(isset($_POST['step1'])){
+if(isset($_POST['step1'])){
 $message .= "Зачем вам ролик?: $step1\n";
 $message .= "Какая будет продолжительность у ролика?: $step2\n";
 $message .= "Сколько времени у нас есть на реализацию?: $step3\n\n";
-//}
+}
 
-//if(isset($_POST['you-need-1'])){
+if(isset($_POST['you-need-1'])){
 $message .= "Для чего вам ролик?: $you_need_1\n";
 $message .= "Почему его до сих пор у Вас нет?: $you_need_2\n\n";
-//}
+}
 
 $message .= "Источник: $utm_source\n";
 $message .= "Тип источника: $utm_medium\n";
