@@ -2,6 +2,7 @@
 $frm = $_POST['frmid'];
 $name = $_POST['name'];
 $phone = $_POST['phone'];
+$mail = $_POST['mail'];
 
 $quest = $_POST['quest'];
 
@@ -32,11 +33,12 @@ $subject = 'Заявка';
 $headers.= "X-Mailer: PHP/" . phpversion()."\r\n";
 $headers.= "MIME-Version: 1.0" . "\r\n";
 $headers.= "Content-type: text/plain; charset=utf-8\r\n";
-//$to = "mr.cabron2@mail.ru";
-$to = 'videomarketing@mail.ru';
+//$to = "mr.cabron2@mail.ru, bav7u.-.zaynulin.ru@lptracker.ru";
+$to = 'videomarketing@mail.ru, bav7u.-.zaynulin.ru@lptracker.ru';
 $message = "Форма: $frm\n\n";
 $message .= "Имя: $name\n";
-$message .= "Телефон: $phone\n\n";
+$message .= "Телефон: $phone\n";
+$message .= "Почта: $mail\n\n";
 
 if(isset($_POST['quest'])){
 $message .= "Вопрос: $quest\n\n";
@@ -67,5 +69,6 @@ $message .= "Тип соответствия ключа(e-точное/p-фра�
 $message .= "Гео-положение отправителя: $location\n\n";
 $message .= "Ссылка на сайт: $url\n";
 $message .= "Заголовок: $title\n\n";
+$message .= "<p>ip: {$_COOKIE["ip"]}</p>";
 mail ($to,$subject,$message,$headers);
 ?>

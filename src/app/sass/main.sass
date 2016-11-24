@@ -10,7 +10,7 @@ nav
 	top: 0
 	left: 0
 	height: 540px
-	padding: 70px 0 90px
+	padding: 70px 
 	width: 100%
 	z-index: 4
 	transition: transform, .75s
@@ -40,8 +40,8 @@ nav
 		height: 100%
 		position: relative
 	ul
-		padding: 0
-		vertical-align: bottom
+		padding: 40px 0 0
+		vertical-align: middle
 		display: table-cell
 		list-style: none
 		text-align: justify
@@ -88,6 +88,10 @@ section.our-works
 	.block
 		width: 50%
 		float: left
+		&.center
+			width: 100%
+			h2
+				text-align: center
 	h2
 		text-align: left
 	.right
@@ -109,18 +113,18 @@ section.our-works
 	.company
 		display: none
 	.tabs
-		text-align: left
+		text-align: center
 		margin-bottom: 25px
 		.tab
 			cursor: pointer
-			padding: 6px 10px
-			min-width: 105px
+			padding: 10px 15px
+			min-width: 135px
 			text-align: center
 			display: inline-block
 			color: $accent
 			line-height: normal
 			border: 1px solid #797fbd
-			font-size: 11px
+			font-size: 14px
 			font-weight: 600
 			border-radius: 20px
 			margin-right: 4px
@@ -187,6 +191,7 @@ section.our-works
 	position: relative
 	cursor: pointer
 	overflow: hidden
+	background-size: cover
 	img
 		position: absolute
 		top: 0
@@ -798,18 +803,38 @@ section.map
 		background-color: #505b6c
 	.inner
 		position: relative
-		margin-top: 100px
+		margin-top: 80px
 	.form
 		position: absolute
 		top: 0
 		right: 0
-
+	.bottom
+		.left
+			text-align: left
+		.right
+			text-align: right
+		a
+		 	display: inline-block
+		a.logo
+			max-width: 200px
+			max-height: 45px
+			img
+				width: 100%
+		a.popup
+			color: #585b98
+			font: 16px 'Roboto', sans-serif
+			line-height: 18px
+			font-weight: 400
+			text-decoration: underline!important
+			margin-top: 10px
+		
 .popup-form,.map-form
 	max-width: 540px
 	background-color: #1d1f2f
 	padding: 30px 40px
 	position: relative
 	margin: auto
+	border-radius: 5px
 	a.mail
 		color: #fff
 	.mfp-close
@@ -878,6 +903,11 @@ section.map
 		font-size: 14px
 		line-height: 16px
 		text-align: center
+
+.confidence
+	max-width: 700px
+	p 
+		font-size: 14px
 
 .mfp-container
 	padding: 0

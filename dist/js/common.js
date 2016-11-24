@@ -55,6 +55,14 @@ $(function() {
 		$(this).closest('.video-inner').addClass('no-button').append('<iframe src="' + iframe + '?autoplay=1"' + ' frameborder="0" allowfullscreen></iframe>');
 	});
 
+	$('.video-inner').each(function() {
+		var pathToImg = $(this).data('img');
+		$(this).css({
+			'background-image':'url('+pathToImg+')'
+		});
+		console.log('asads')
+	})
+	
 	var	sliders = function() { // Высчитываем ширину всех слайдов и подгоняем под ширину родителя
 		var activeLeftSliderW = $('section.our-works .content.active .left .tab-cont.active .our-works-slider').width(),
 				activeLeftSliderH = $('section.our-works .content.active .left .tab-cont.active .our-works-slider').height(),
@@ -74,10 +82,10 @@ $(function() {
 
 	sliders();
 
-	$('.left .tab').click(function(e) {
+	$('.center .tab').click(function(e) {
 		var slide  = $(this).data('rel'),
 				iframe = $('.slide .video').find('.video-inner').data('rel');
-		$('.left .tab').removeClass('active');
+		$('.center .tab').removeClass('active');
 		$(this).addClass('active');
 		sliders();
 		$('.left .tab-cont, .right .tab-cont').hide().removeClass('active');
@@ -88,18 +96,6 @@ $(function() {
 
 	$(window).on('resize', function() {
 		sliders();
-	});
-
-	$('.right .tab').click(function(e) {
-		var thContent 	 = $(this).data('rel'),
-				notThContent = $('.right .tab').not(this).data('rel');
-		$('.right .tab').removeClass('active');
-		sliders();
-		$(this).addClass('active');
-		$(notThContent).hide().removeClass('active');
-		$(thContent).fadeIn(250).addClass('active');
-		e.preventDefault();
-		$('.video-inner').removeClass('no-button').find('iframe').remove();
 	});
 
 	$('section.our-works button.next').click(function() {
@@ -186,6 +182,9 @@ $(function() {
 	$('input[name="name"]').blur(function() {if($(this).val().length < 2) {$(this).addClass('error-input');}});
 	$('input[name="name"]').focus(function() {$(this).removeClass('error-input');});
 
+	$('input[name="mail"]').blur(function() {if($(this).val().length < 2 ) {$(this).addClass('error-input');}});
+	$('input[name="mail"]').focus(function() {$(this).removeClass('error-input');});
+
 	$('input[name="phone"]').mask('+7 (999) 999-99-99');
 	$('input[name="phone"]').blur(function() {if($(this).val().length != 18) {$(this).addClass('error-input');}});
 	$('input[name="phone"]').focus(function() {$(this).removeClass('error-input');});
@@ -248,12 +247,16 @@ $(function() {
 
 			var errorPopText = '';
 
-			if ($(this).find('input[name="name"]').hasClass('error-input') && !$(this).find('input[name="phone"]').hasClass('error-input')) {
+			if ($(this).find('input[name="name"]').hasClass('error-input') && !$(this).find('input[name="phone"]').hasClass('error-input') && !$(this).find('input[name=mail]').hasClass('error-input')) {
 				errorPopText = 'Пожалуйста введите имя';
-			} else if (!$(this).find('input[name="name"]').hasClass('error-input') && $(this).find('input[name="phone"]').hasClass('error-input')) {
+			} else if (!$(this).find('input[name="name"]').hasClass('error-input') && $(this).find('input[name="phone"]').hasClass('error-input') && !$(this).find('input[name="mail"]').hasClass('error-input')) {
 				errorPopText = 'Пожалуйста введите телефон';
-			} else if ($(this).find('input[name="name"]').hasClass('error-input') && $(this).find('input[name="phone"]').hasClass('error-input')) {
+			} else if ($(this).find('input[name="name"]').hasClass('error-input') && $(this).find('input[name="phone"]').hasClass('error-input') && !$(this).find('input[name="mail"]').hasClass('error-input')) {
 				errorPopText = 'Пожалуйста введите имя и телефон';
+			} else if (!$(this).find('input[name="name"]').hasClass('error-input') && $(this).find('input[name="mail"]').hasClass('error-input') && !$(this).find('input[name="phone"]').hasClass('error-input')) {
+				errorPopText = 'Пожалуйста введите почту';
+			} else if ($(this).find('input[name="name"]').hasClass('error-input') && $(this).find('input[name="mail"]').hasClass('error-input') && !$(this).find('input[name="phone"]').hasClass('error-input')) {
+				errorPopText = 'Пожалуйста введите имя и почту';
 			}
 
 			$('#error-pop .text').text(errorPopText);

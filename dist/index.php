@@ -17,7 +17,7 @@
 	<!-- Template Basic Images End -->
 
 	<!-- Header CSS (first screen styles from header.min.css) - inserted in the build of the project -->
-	<style>@charset "UTF-8";.scroll-none,section{overflow:hidden}.wrapper,body,section{position:relative}.wrapper-inner,section{width:100%;min-height:600px}section,section.header a.phone span.circle,section.header a.phone:hover span.circle,ul.social li a{background-position:center;background-repeat:no-repeat}::-webkit-input-placeholder{color:#7a7eba;opacity:1;font-family:OpenSans,sans-serif;font-size:14px;line-height:18px;font-weight:600;font-style:italic}:-moz-placeholder{color:#7a7eba;opacity:1;font-family:OpenSans,sans-serif;font-size:14px;line-height:18px;font-weight:600;font-style:italic}::-moz-placeholder{color:#7a7eba;opacity:1;font-family:OpenSans,sans-serif;font-size:14px;line-height:18px;font-weight:600;font-style:italic}:-ms-input-placeholder{color:#7a7eba;opacity:1;font-family:OpenSans,sans-serif;font-size:14px;line-height:18px;font-weight:600;font-style:italic}::-moz-selection{background-color:#797fbd}::selection{background-color:#797fbd}body input:focus:required:invalid,body input:required:valid,body textarea:focus:required:invalid,body textarea:required:valid{color:#666}body{font-size:16px;min-width:320px;line-height:1.6;font-family:OpenSans,sans-serif;overflow-x:hidden;color:#fff;font-weight:400!important;margin:0;-webkit-font-smoothing:antialiased}*{-webkit-box-sizing:border-box;box-sizing:border-box}section{height:100vh;background-size:cover;display:block;text-align:center;padding:0 50px;float:left}.clearfix:after{content:"";display:table;clear:both}.wrapper{max-width:980px;height:100%;margin:0 auto}.wrapper-inner{position:absolute;top:50%;margin:-300px auto 0}.wrapper-inner.bg:after{position:absolute;content:'';width:1140px;height:720px;top:-60px;left:-80px;background-color:#1d1f2f;-webkit-border-radius:5px;border-radius:5px;-webkit-box-shadow:0 35px 50px -20px rgba(0,0,0,.5);box-shadow:0 35px 50px -20px rgba(0,0,0,.5)}.hidden{display:none}span{display:block}.slide{outline:0}a,button,input{outline:0!important}a{text-decoration:none!important;-webkit-transition:all .25s;transition:all .25s;font-weight:400}div{-webkit-box-sizing:border-box!important;box-sizing:border-box!important}input.error-input{border-color:#d91768}button{cursor:pointer;padding:0;overflow:visible}a.main,button.main{position:relative;display:inline-block;border:0;background-color:transparent;font-size:14px;font-family:OpenSans,sans-serif;font-weight:600}a.main:after,a.main:before,button.main:after,button.main:before{content:'';position:absolute;border:2px solid #004563;width:100%;height:100%;top:0;left:4px;-webkit-border-radius:30px;border-radius:30px;-webkit-transform:rotate(1deg);-ms-transform:rotate(1deg);transform:rotate(1deg)}a.main:after,button.main:after{border-color:#ff3b8d;top:-2px;left:-5px;-webkit-transform:rotate(-2deg);-ms-transform:rotate(-2deg);transform:rotate(-2deg)}a.main:hover span,button.main:hover span{background-color:#7479bc;color:#fff}a.main span,button.main span{content:'';position:relative;z-index:1;width:100%;left:0;top:0;height:100%;font-weight:700;border:3px solid #7479bc;-webkit-transition:all,.25s;transition:all,.25s;-webkit-border-radius:30px;border-radius:30px;text-transform:uppercase;color:#585b98;padding:10px 25px}a.circle,button.arrow{width:50px;height:50px;background-color:transparent;-webkit-border-radius:50%;border-radius:50%;position:relative;z-index:1;padding:0;border:0}a.circle.close,button.arrow.close{position:absolute}a.circle.close span.circle:after,button.arrow.close span.circle:after{display:none!important}a.circle.close span.circle span.arrow,button.arrow.close span.circle span.arrow{top:23px;left:12px}a.circle.close span.circle span.arrow:after,a.circle.close span.circle span.arrow:before,button.arrow.close span.circle span.arrow:after,button.arrow.close span.circle span.arrow:before{width:22px}a.circle.close span.circle span.arrow:after,button.arrow.close span.circle span.arrow:after{top:0}a.circle.close:before,button.arrow.close:before{left:0;top:0}a.circle.close:after,button.arrow.close:after{top:-4px;left:1px}a.circle:after,a.circle:before,button.arrow:after,button.arrow:before{content:'';position:absolute;border:2px solid #004563;width:50px;height:50px;top:3px;left:1px;-webkit-border-radius:50%;border-radius:50%}a.circle:after,button.arrow:after{border-color:#ff3b8d;top:-3px;left:2px}a.circle:hover span.circle,button.arrow:hover span.circle{background-color:#7479bc}a.circle:hover span.arrow,a.circle:hover span.arrow:after,a.circle:hover span.arrow:before,a.circle:hover span.burger,a.circle:hover span.burger:after,a.circle:hover span.burger:before,button.arrow:hover span.arrow,button.arrow:hover span.arrow:after,button.arrow:hover span.arrow:before,button.arrow:hover span.burger,button.arrow:hover span.burger:after,button.arrow:hover span.burger:before{border-color:#fff!important}a.circle span,a.circle span:after,a.circle span:before,button.arrow span,button.arrow span:after,button.arrow span:before{-webkit-transition:all,.25s;transition:all,.25s}a.circle span.circle,button.arrow span.circle{content:'';position:relative;-webkit-border-radius:50%;border-radius:50%;width:50px;height:50px;border:2px solid #7479bc;z-index:1}a.circle span.circle span.arrow,button.arrow span.circle span.arrow{top:18px;left:16px;position:absolute}a.circle.next span.circle span.arrow,button.arrow.next span.circle span.arrow{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);top:28px;left:30px}a.circle.arrow span.circle:after,button.arrow.arrow span.circle:after{position:absolute;content:'Предыдущий ролик';font-family:OpenSans,sans-serif;font-weight:600;font-style:italic;display:none;width:160px;left:165px;top:15px;font-size:14px;line-height:16px;color:#7a7eba;-webkit-transition:opacity,.25s;transition:opacity,.25s}h1,span.h1-subtitle{color:#fff;text-transform:uppercase}a.circle:hover span.circle:after,button.arrow:hover span.circle:after{display:block}section.header .top-line a,span.accent,ul.social,ul.social li{display:inline-block}a.circle.next span.circle:after,button.arrow.next span.circle:after{content:'Следующий ролик';left:100px}a.circle span.burger,button.arrow span.burger{width:15px;border-bottom:2px solid #7479bc;position:absolute;top:22px;left:15px;-webkit-transition:all,.25s;transition:all,.25s;z-index:1}a.circle span.burger:after,a.circle span.burger:before,button.arrow span.burger:after,button.arrow span.burger:before{border-bottom:2px solid #7479bc;left:0;width:100%;position:absolute;content:'';top:-5px;-webkit-transition:all,.25s;transition:all,.25s}a.circle span.burger:after,button.arrow span.burger:after{top:5px}a.circle span.arrow,button.arrow span.arrow{position:absolute;top:25px;left:25px}a.circle span.arrow:after,a.circle span.arrow:before,button.arrow span.arrow:after,button.arrow span.arrow:before{content:'';position:absolute;width:12px;border-bottom:2px solid #7479bc;-webkit-transform:rotate(-45deg);-ms-transform:rotate(-45deg);transform:rotate(-45deg)}a.circle span.arrow:after,button.arrow span.arrow:after{top:8px;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg)}h1{font-family:EBGaramond,sans-serif;font-weight:400;font-size:42px;line-height:50px;margin:0 auto 25px}span.h1-subtitle{font-weight:600;font-size:16px;margin:auto}span.accent,span.white{font-size:14px;line-height:16px}span.accent{color:#7a7eba;font-weight:600;font-style:italic}h2,span.white{font-weight:400}span.accent::-moz-selection{background-color:#161d62}span.accent::selection{background-color:#161d62}span.white{color:#fff;font-family:Roboto,sans-serif}h2{font-family:EBGaramond,sans-serif;text-transform:uppercase;color:#fff;font-size:24px}h3,section.header span.numbers a.number{font-weight:600;color:#fff;line-height:20px}h3{font-size:16px;text-transform:uppercase}.preloader{width:100%;height:100%;position:fixed;left:0;top:0;background-color:#1d1f2f;z-index:11}.cssload-thecube{width:73px;height:73px;margin:-32px auto 0;top:50%;position:relative;transform:rotateZ(45deg);-o-transform:rotateZ(45deg);-ms-transform:rotateZ(45deg);-webkit-transform:rotateZ(45deg);-moz-transform:rotateZ(45deg)}.cssload-thecube .cssload-cube{transform:rotateZ(45deg);-ms-transform:rotateZ(45deg);-webkit-transform:rotateZ(45deg);-moz-transform:rotateZ(45deg);float:left;width:50%;height:50%;position:relative;transform:scale(1.1);-o-transform:scale(1.1);-ms-transform:scale(1.1);-webkit-transform:scale(1.1);-moz-transform:scale(1.1)}.cssload-thecube .cssload-cube:before{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background-color:#7f6fb1;animation:cssload-fold-thecube 2.76s infinite linear both;-o-animation:cssload-fold-thecube 2.76s infinite linear both;-ms-animation:cssload-fold-thecube 2.76s infinite linear both;-webkit-animation:cssload-fold-thecube 2.76s infinite linear both;-moz-animation:cssload-fold-thecube 2.76s infinite linear both;transform-origin:100% 100%;-o-transform-origin:100% 100%;-ms-transform-origin:100% 100%;-webkit-transform-origin:100% 100%;-moz-transform-origin:100% 100%}.cssload-thecube .cssload-c2{transform:scale(1.1) rotateZ(90deg);-o-transform:scale(1.1) rotateZ(90deg);-ms-transform:scale(1.1) rotateZ(90deg);-webkit-transform:scale(1.1) rotateZ(90deg);-moz-transform:scale(1.1) rotateZ(90deg)}.cssload-thecube .cssload-c3{transform:scale(1.1) rotateZ(180deg);-o-transform:scale(1.1) rotateZ(180deg);-ms-transform:scale(1.1) rotateZ(180deg);-webkit-transform:scale(1.1) rotateZ(180deg);-moz-transform:scale(1.1) rotateZ(180deg)}.cssload-thecube .cssload-c4{transform:scale(1.1) rotateZ(270deg);-o-transform:scale(1.1) rotateZ(270deg);-ms-transform:scale(1.1) rotateZ(270deg);-webkit-transform:scale(1.1) rotateZ(270deg);-moz-transform:scale(1.1) rotateZ(270deg)}.cssload-thecube .cssload-c2:before{animation-delay:.35s;-o-animation-delay:.35s;-ms-animation-delay:.35s;-webkit-animation-delay:.35s;-moz-animation-delay:.35s}.cssload-thecube .cssload-c3:before{animation-delay:.69s;-o-animation-delay:.69s;-ms-animation-delay:.69s;-webkit-animation-delay:.69s;-moz-animation-delay:.69s}.cssload-thecube .cssload-c4:before{animation-delay:1.04s;-o-animation-delay:1.04s;-ms-animation-delay:1.04s;-webkit-animation-delay:1.04s;-moz-animation-delay:1.04s}@keyframes cssload-fold-thecube{0%,10%{-webkit-transform:perspective(136px) rotateX(-180deg);transform:perspective(136px) rotateX(-180deg);opacity:0}25%{transform:perspective(136px) rotateX(0);opacity:1}90%{transform:perspective(136px) rotateY(180deg);opacity:0}}@-webkit-keyframes cssload-fold-thecube{0%,10%{-webkit-transform:perspective(136px) rotateX(-180deg);opacity:0}25%{opacity:1}90%{opacity:0}}section.header{background-image:url(../img/header-bg.jpg)}section.header .top-line{padding-top:25px;z-index:3}section.header .top-line .block{width:33.333%;float:left}section.header .top-line .inner{max-width:980px;margin:auto}section.header .top-line.fixed{position:fixed;top:0;left:0;padding:25px 50px 0;width:100%;background-color:rgba(44,47,70,.7);-webkit-transition:all,.25s;transition:all,.25s}section.header .top-line.fixed.no-bg{background-color:transparent}section.header .top-line .middle{width:20%}section.header .top-line .left,section.header .top-line .right{width:40%}section.header .left{text-align:left}section.header .right{text-align:right}section.header a.logo{max-width:132px;margin-top:-20px}section.header a.phone{width:50px;height:50px;-webkit-border-radius:50%;border-radius:50%;border:2px solid #7479bc;float:right}section.header a.phone span.circle{background-image:url(../img/phone-icon.png);-webkit-transition:background-color,.25s;transition:background-color,.25s}section.header a.phone:hover span.circle{background-image:url(../img/phone-white-icon.png)}section.header span.numbers{display:inline-block;max-width:220px;margin:15px 20px 0 0;height:100%}section.header span.numbers a.number{border-bottom:1px solid transparent}section.header span.numbers a.number:hover{border-color:#fff}section.header .content{padding:110px 0;text-align:center;position:relative;min-height:410px}section.header span.h1-subtitle{max-width:350px;margin-bottom:30px}section.header span.accent{max-width:305px}section.header .button{left:0;bottom:-70px;width:100%;text-align:center;position:absolute}.bottom,.bottom.fixed{bottom:0;left:0;width:100%}.bottom{position:absolute;height:50px}.bottom .inner{max-width:980px;margin:auto}.bottom.fixed{position:fixed;padding:0 50px;z-index:3;background-color:rgba(44,47,70,.7);-webkit-transition:all,.25s;transition:all,.25s}.bottom.fixed.no-bg{background-color:transparent}.bottom .block{width:50%;float:left;min-height:1px}.bottom span.white{margin-top:18px}ul.social{list-style:none;padding:0;height:25px;margin:13px 0 0}ul.social li a{display:block;width:25px;height:25px;margin-right:7px;background-image:url(../img/instagram.png)}ul.social li a:hover{background-image:url(../img/instagram-hover.png)}ul.social li:nth-of-type(2) a{background-image:url(../img/vk.png)}ul.social li:nth-of-type(2) a:hover{background-image:url(../img/vk-hover.png)}ul.social li:nth-of-type(3) a{background-image:url(../img/fb.png)}ul.social li:nth-of-type(3) a:hover{background-image:url(../img/fb-hover.png)}</style>
+	<style>@charset "UTF-8";.scroll-none,section{overflow:hidden}.wrapper,section{height:100vh;position:relative}.wrapper,body,section{position:relative}.wrapper-inner,section{width:100%;min-height:600px}.wrapper,.wrapper-inner,section{min-height:600px}section,section.header a.phone span.circle,section.header a.phone:hover span.circle,ul.social li a{background-position:center;background-repeat:no-repeat}::-webkit-input-placeholder{color:#7a7eba;opacity:1;font-family:OpenSans,sans-serif;font-size:14px;line-height:18px;font-weight:600;font-style:italic}:-moz-placeholder{color:#7a7eba;opacity:1;font-family:OpenSans,sans-serif;font-size:14px;line-height:18px;font-weight:600;font-style:italic}::-moz-placeholder{color:#7a7eba;opacity:1;font-family:OpenSans,sans-serif;font-size:14px;line-height:18px;font-weight:600;font-style:italic}:-ms-input-placeholder{color:#7a7eba;opacity:1;font-family:OpenSans,sans-serif;font-size:14px;line-height:18px;font-weight:600;font-style:italic}::-moz-selection{background-color:#797fbd}::selection{background-color:#797fbd}body input:focus:required:invalid,body input:required:valid,body textarea:focus:required:invalid,body textarea:required:valid{color:#666}body{font-size:16px;min-width:320px;line-height:1.6;font-family:OpenSans,sans-serif;overflow-x:hidden;color:#fff;font-weight:400!important;margin:0;-webkit-font-smoothing:antialiased}*{-webkit-box-sizing:border-box;box-sizing:border-box}section{background-size:cover;display:block;text-align:center;padding:0 50px;float:left}.clearfix:after{content:"";display:table;clear:both}.wrapper{max-width:980px;margin:0 auto}.wrapper-inner{position:absolute;top:50%;margin:-300px auto 0}.wrapper-inner.bg:after{position:absolute;content:'';width:1140px;height:720px;top:-60px;left:-80px;background-color:#1d1f2f;-webkit-border-radius:5px;border-radius:5px;-webkit-box-shadow:0 35px 50px -20px rgba(0,0,0,.5);box-shadow:0 35px 50px -20px rgba(0,0,0,.5)}.hidden{display:none}span{display:block}.slide{outline:0}a,button,input{outline:0!important}a{text-decoration:none!important;-webkit-transition:all .25s;transition:all .25s;font-weight:400}div{-webkit-box-sizing:border-box!important;box-sizing:border-box!important}input.error-input{border-color:#d91768}button{cursor:pointer;padding:0;overflow:visible}a.main,button.main{position:relative;display:inline-block;border:0;background-color:transparent;font-size:14px;font-family:OpenSans,sans-serif;font-weight:600}a.main:after,a.main:before,button.main:after,button.main:before{content:'';position:absolute;border:2px solid #004563;width:100%;height:100%;top:0;left:4px;-webkit-border-radius:30px;border-radius:30px;-webkit-transform:rotate(1deg);-ms-transform:rotate(1deg);transform:rotate(1deg)}a.main:after,button.main:after{border-color:#ff3b8d;top:-2px;left:-5px;-webkit-transform:rotate(-2deg);-ms-transform:rotate(-2deg);transform:rotate(-2deg)}a.main:hover span,button.main:hover span{background-color:#7479bc;color:#fff}a.main span,button.main span{content:'';position:relative;z-index:1;width:100%;left:0;top:0;height:100%;font-weight:700;border:3px solid #7479bc;-webkit-transition:all,.25s;transition:all,.25s;-webkit-border-radius:30px;border-radius:30px;text-transform:uppercase;color:#585b98;padding:10px 25px}a.circle,button.arrow{width:50px;height:50px;background-color:transparent;-webkit-border-radius:50%;border-radius:50%;position:relative;z-index:1;padding:0;border:0}a.circle.close,button.arrow.close{position:absolute}a.circle.close span.circle:after,button.arrow.close span.circle:after{display:none!important}a.circle.close span.circle span.arrow,button.arrow.close span.circle span.arrow{top:23px;left:12px}a.circle.close span.circle span.arrow:after,a.circle.close span.circle span.arrow:before,button.arrow.close span.circle span.arrow:after,button.arrow.close span.circle span.arrow:before{width:22px}a.circle.close span.circle span.arrow:after,button.arrow.close span.circle span.arrow:after{top:0}a.circle.close:before,button.arrow.close:before{left:0;top:0}a.circle.close:after,button.arrow.close:after{top:-4px;left:1px}a.circle:after,a.circle:before,button.arrow:after,button.arrow:before{content:'';position:absolute;border:2px solid #004563;width:50px;height:50px;top:3px;left:1px;-webkit-border-radius:50%;border-radius:50%}a.circle:after,button.arrow:after{border-color:#ff3b8d;top:-3px;left:2px}a.circle:hover span.circle,button.arrow:hover span.circle{background-color:#7479bc}a.circle:hover span.arrow,a.circle:hover span.arrow:after,a.circle:hover span.arrow:before,a.circle:hover span.burger,a.circle:hover span.burger:after,a.circle:hover span.burger:before,button.arrow:hover span.arrow,button.arrow:hover span.arrow:after,button.arrow:hover span.arrow:before,button.arrow:hover span.burger,button.arrow:hover span.burger:after,button.arrow:hover span.burger:before{border-color:#fff!important}a.circle span,a.circle span:after,a.circle span:before,button.arrow span,button.arrow span:after,button.arrow span:before{-webkit-transition:all,.25s;transition:all,.25s}a.circle span.circle,button.arrow span.circle{content:'';position:relative;-webkit-border-radius:50%;border-radius:50%;width:50px;height:50px;border:2px solid #7479bc;z-index:1}a.circle span.circle span.arrow,button.arrow span.circle span.arrow{top:18px;left:16px;position:absolute}a.circle.next span.circle span.arrow,button.arrow.next span.circle span.arrow{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);top:28px;left:30px}a.circle.arrow span.circle:after,button.arrow.arrow span.circle:after{position:absolute;content:'Предыдущий ролик';font-family:OpenSans,sans-serif;font-weight:600;font-style:italic;display:none;width:160px;left:165px;top:15px;font-size:14px;line-height:16px;color:#7a7eba;-webkit-transition:opacity,.25s;transition:opacity,.25s}h1,span.h1-subtitle{color:#fff;text-transform:uppercase}a.circle:hover span.circle:after,button.arrow:hover span.circle:after{display:block}.bottom a,section.header .top-line a,span.accent{display:inline-block}a.circle.next span.circle:after,button.arrow.next span.circle:after{content:'Следующий ролик';left:100px}a.circle span.burger,button.arrow span.burger{width:15px;border-bottom:2px solid #7479bc;position:absolute;top:22px;left:15px;-webkit-transition:all,.25s;transition:all,.25s;z-index:1}a.circle span.burger:after,a.circle span.burger:before,button.arrow span.burger:after,button.arrow span.burger:before{border-bottom:2px solid #7479bc;left:0;width:100%;position:absolute;content:'';top:-5px;-webkit-transition:all,.25s;transition:all,.25s}a.circle span.burger:after,button.arrow span.burger:after{top:5px}a.circle span.arrow,button.arrow span.arrow{position:absolute;top:25px;left:25px}a.circle span.arrow:after,a.circle span.arrow:before,button.arrow span.arrow:after,button.arrow span.arrow:before{content:'';position:absolute;width:12px;border-bottom:2px solid #7479bc;-webkit-transform:rotate(-45deg);-ms-transform:rotate(-45deg);transform:rotate(-45deg)}a.circle span.arrow:after,button.arrow span.arrow:after{top:8px;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg)}h1{font-family:EBGaramond,sans-serif;font-weight:400;font-size:42px;line-height:50px;margin:0 auto 25px}span.h1-subtitle{font-weight:600;font-size:16px;margin:auto}span.accent,span.white{font-size:14px;line-height:16px}span.accent{color:#7a7eba;font-weight:600;font-style:italic}h2,span.white{font-weight:400}span.accent::-moz-selection{background-color:#161d62}span.accent::selection{background-color:#161d62}span.white{color:#fff;font-family:Roboto,sans-serif}h2{font-family:EBGaramond,sans-serif;text-transform:uppercase;color:#fff;font-size:24px}h3,section.header span.numbers a.number{font-weight:600;color:#fff;line-height:20px}h3{font-size:16px;text-transform:uppercase}.preloader{width:100%;height:100%;position:fixed;left:0;top:0;background-color:#1d1f2f;z-index:11}.cssload-thecube{width:73px;height:73px;margin:-32px auto 0;top:50%;position:relative;transform:rotateZ(45deg);-o-transform:rotateZ(45deg);-ms-transform:rotateZ(45deg);-webkit-transform:rotateZ(45deg);-moz-transform:rotateZ(45deg)}.cssload-thecube .cssload-cube{transform:rotateZ(45deg);-ms-transform:rotateZ(45deg);-webkit-transform:rotateZ(45deg);-moz-transform:rotateZ(45deg);float:left;width:50%;height:50%;position:relative;transform:scale(1.1);-o-transform:scale(1.1);-ms-transform:scale(1.1);-webkit-transform:scale(1.1);-moz-transform:scale(1.1)}.cssload-thecube .cssload-cube:before{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background-color:#7f6fb1;animation:cssload-fold-thecube 2.76s infinite linear both;-o-animation:cssload-fold-thecube 2.76s infinite linear both;-ms-animation:cssload-fold-thecube 2.76s infinite linear both;-webkit-animation:cssload-fold-thecube 2.76s infinite linear both;-moz-animation:cssload-fold-thecube 2.76s infinite linear both;transform-origin:100% 100%;-o-transform-origin:100% 100%;-ms-transform-origin:100% 100%;-webkit-transform-origin:100% 100%;-moz-transform-origin:100% 100%}.cssload-thecube .cssload-c2{transform:scale(1.1) rotateZ(90deg);-o-transform:scale(1.1) rotateZ(90deg);-ms-transform:scale(1.1) rotateZ(90deg);-webkit-transform:scale(1.1) rotateZ(90deg);-moz-transform:scale(1.1) rotateZ(90deg)}.cssload-thecube .cssload-c3{transform:scale(1.1) rotateZ(180deg);-o-transform:scale(1.1) rotateZ(180deg);-ms-transform:scale(1.1) rotateZ(180deg);-webkit-transform:scale(1.1) rotateZ(180deg);-moz-transform:scale(1.1) rotateZ(180deg)}.cssload-thecube .cssload-c4{transform:scale(1.1) rotateZ(270deg);-o-transform:scale(1.1) rotateZ(270deg);-ms-transform:scale(1.1) rotateZ(270deg);-webkit-transform:scale(1.1) rotateZ(270deg);-moz-transform:scale(1.1) rotateZ(270deg)}.cssload-thecube .cssload-c2:before{animation-delay:.35s;-o-animation-delay:.35s;-ms-animation-delay:.35s;-webkit-animation-delay:.35s;-moz-animation-delay:.35s}.cssload-thecube .cssload-c3:before{animation-delay:.69s;-o-animation-delay:.69s;-ms-animation-delay:.69s;-webkit-animation-delay:.69s;-moz-animation-delay:.69s}.cssload-thecube .cssload-c4:before{animation-delay:1.04s;-o-animation-delay:1.04s;-ms-animation-delay:1.04s;-webkit-animation-delay:1.04s;-moz-animation-delay:1.04s}@keyframes cssload-fold-thecube{0%,10%{-webkit-transform:perspective(136px) rotateX(-180deg);transform:perspective(136px) rotateX(-180deg);opacity:0}25%{transform:perspective(136px) rotateX(0);opacity:1}90%{transform:perspective(136px) rotateY(180deg);opacity:0}}@-webkit-keyframes cssload-fold-thecube{0%,10%{-webkit-transform:perspective(136px) rotateX(-180deg);opacity:0}25%{opacity:1}90%{opacity:0}}section.header{background-image:url(img/header-bg.jpg)}section.header .top-line{padding-top:25px;z-index:3}section.header .top-line .block{width:33.333%;float:left}section.header .top-line .inner{max-width:980px;margin:auto}section.header .top-line.fixed{position:fixed;top:0;left:0;padding:25px 50px 0;width:100%;background-color:rgba(44,47,70,.7);-webkit-transition:all,.25s;transition:all,.25s}section.header .top-line.fixed.no-bg{background-color:transparent}section.header .top-line .middle{width:20%}section.header .top-line .left,section.header .top-line .right{width:40%}section.header .left{text-align:left}section.header .right{text-align:right}section.header a.logo{max-width:132px;margin-top:-20px}section.header a.phone{width:50px;height:50px;-webkit-border-radius:50%;border-radius:50%;border:2px solid #7479bc;float:right}section.header a.phone span.circle{background-image:url(img/phone-icon.png);-webkit-transition:background-color,.25s;transition:background-color,.25s}section.header a.phone:hover span.circle{background-image:url(img/phone-white-icon.png)}section.header span.numbers{display:inline-block;max-width:220px;margin:15px 20px 0 0;height:100%}section.header span.numbers a.number{border-bottom:1px solid transparent}section.header span.numbers a.number:hover{border-color:#fff}section.header .content{padding:110px 0;text-align:center;position:relative;min-height:410px}section.header span.h1-subtitle{max-width:600px;margin-bottom:30px}section.header span.accent{max-width:305px}section.header .button{left:0;bottom:-70px;width:100%;text-align:center;position:absolute}.bottom,.bottom.fixed{bottom:0;left:0;width:100%}.bottom{position:absolute;height:50px}.bottom .inner{max-width:980px;margin:auto}.bottom.fixed{position:fixed;padding:0 50px;z-index:3;background-color:rgba(44,47,70,.7);-webkit-transition:all,.25s;transition:all,.25s}.bottom.fixed.no-bg{background-color:transparent}.bottom .block{width:50%;float:left;min-height:1px}.bottom span.white{margin-top:18px}.bottom:after{content:'';display:table;clear:both}ul.social,ul.social li{display:inline-block}ul.social{list-style:none;padding:0;height:25px;margin:13px 0 0}ul.social li a{display:block;width:25px;height:25px;margin-right:7px;background-image:url(img/instagram.png)}ul.social li a:hover{background-image:url(img/instagram-hover.png)}ul.social li:nth-of-type(2) a{background-image:url(img/vk.png)}ul.social li:nth-of-type(2) a:hover{background-image:url(img/vk-hover.png)}ul.social li:nth-of-type(3) a{background-image:url(img/fb.png)}ul.social li:nth-of-type(3) a:hover{background-image:url(img/fb-hover.png)}</style>
 
 	<!-- Load CSS, CSS Localstorage & WebFonts Main Function -->
 	<script>!function(e){"use strict";function t(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)};function n(t,n){return e.localStorage&&localStorage[t+"_content"]&&localStorage[t+"_file"]===n};function a(t,a){if(e.localStorage&&e.XMLHttpRequest)n(t,a)?o(localStorage[t+"_content"]):l(t,a);else{var s=r.createElement("link");s.href=a,s.id=t,s.rel="stylesheet",s.type="text/css",r.getElementsByTagName("head")[0].appendChild(s),r.cookie=t}}function l(e,t){var n=new XMLHttpRequest;n.open("GET",t,!0),n.onreadystatechange=function(){4===n.readyState&&200===n.status&&(o(n.responseText),localStorage[e+"_content"]=n.responseText,localStorage[e+"_file"]=t)},n.send()}function o(e){var t=r.createElement("style");t.setAttribute("type","text/css"),r.getElementsByTagName("head")[0].appendChild(t),t.styleSheet?t.styleSheet.cssText=e:t.innerHTML=e}var r=e.document;e.loadCSS=function(e,t,n){var a,l=r.createElement("link");if(t)a=t;else{var o;o=r.querySelectorAll?r.querySelectorAll("style,link[rel=stylesheet],script"):(r.body||r.getElementsByTagName("head")[0]).childNodes,a=o[o.length-1]}var s=r.styleSheets;l.rel="stylesheet",l.href=e,l.media="only x",a.parentNode.insertBefore(l,t?a:a.nextSibling);var c=function(e){for(var t=l.href,n=s.length;n--;)if(s[n].href===t)return e();setTimeout(function(){c(e)})};return l.onloadcssdefined=c,c(function(){l.media=n||"all"}),l},e.loadLocalStorageCSS=function(l,o){n(l,o)||r.cookie.indexOf(l)>-1?a(l,o):t(e,"load",function(){a(l,o)})}}(this);</script>
@@ -40,6 +40,7 @@
 		<link rel="stylesheet" href="css/main.min.css">
 	</noscript>
 	<!-- Load Custom CSS Compiled without JS End -->
+	<?php include('track/head.php') ?>
 </head>
 
 <body class="clearfix">
@@ -83,14 +84,15 @@
 						<div class="right block clearfix">
 							<a href="#popup-phone" class="phone popup circle"><span class="circle"></span></a>
 							<span class="numbers">
-								<a href="tel:84952235511" class="number">+7 495 649 06 35</a>
+								<a href="tel:+74956490635" class="number"><span class="lptracker_phone">+7 495 649 06 35</span></a>
 							</span>
 						</div>
 					</div>
 				</div>
 				<div class="content">
 					<h1>Производство Видеороликов</h1>
-					<span class="h1-subtitle">Сделаем именно то, что Вам нужно за бюджет, который у Вас есть</span>
+					<span class="h1-subtitle">Поднимите уровень доверия к Вашей компании для клиентов и партнеров с помощью имиджевой видеопрезентации!</span>
+					<!-- <span class="h1-subtitle">Сделаем именно то, что Вам нужно за бюджет, который у Вас есть</span> -->
 					<div class="button">
 						<a href="#our-works" id="to-out-works" class="main"><span>Наше портфолио</span></a>
 					</div>
@@ -121,19 +123,12 @@
 			<div class="wrapper-inner bg clearfix">
 				<div class="inner clearfix">
 					<div class="top clearfix">
-						<div class="left block">
+						<div class="center block">
 							<h2>Выберите тип ролика</h2>
 							<div class="tabs">
 								<div class="tab active" data-rel='.slide-1'>Видеосъемка</div>
 								<div class="tab" data-rel='.slide-2'>Инфографика</div>
 								<div class="tab" data-rel='.slide-3'>3D анимация</div>
-							</div>
-						</div>
-						<div class="right block">
-							<h2>Задача ролика</h2>
-							<div class="tabs">
-								<div class="tab active" data-rel='.product'>Презентация продукта</div>
-								<div class="tab" data-rel='.company'>Презентация компании</div>
 							</div>
 						</div>
 					</div>
@@ -147,111 +142,11 @@
 								<div class="our-works-slider">
 									<div class="slide">
 										<div class="h2">
-											<h2>ОКБ «КРИСТАЛЛ»</h2>
-										</div>
-										<div class="video">
-											<img src="img/video-lines.png" class="lines" alt="">
-											<div class="video-inner" data-rel='https://www.youtube.com/embed/Uzk6popAwNM'>
-												<img src="//img.youtube.com/vi/Uzk6popAwNM/mqdefault.jpg">
-											</div>
-										</div>
-									</div>
-									<div class="slide">
-										<div class="h2">
-											<h2>ОКБ «КРИСТАЛЛ»</h2>
-										</div>
-										<div class="video">
-											<img src="img/video-lines.png" class="lines" alt="">
-											<div class="video-inner" data-rel='https://www.youtube.com/embed/y4iMeHDJnb0'>
-												<img src="//img.youtube.com/vi/y4iMeHDJnb0/mqdefault.jpg">
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="tab-cont slide-2">
-								<div class="our-works-slider">
-									<div class="slide">
-										<div class="h2">
 											<h2>ПАО СИБУР</h2>
 										</div>
 										<div class="video">
 											<img src="img/video-lines.png" class="lines" alt="">
-											<div class="video-inner" data-rel='https://www.youtube.com/embed/ZzTxd-VD6f0'>
-												<img src="//img.youtube.com/vi/ZzTxd-VD6f0/mqdefault.jpg">
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="tab-cont slide-3">
-								<div class="our-works-slider">
-									<div class="slide">
-										<div class="h2">
-											<h2>Фонд Венчурных Инвестиций</h2>
-										</div>
-										<div class="video">
-											<img src="img/video-lines.png" class="lines" alt="">
-											<div class="video-inner" data-rel='https://www.youtube.com/embed/jTuGZJ76rXQ'>
-												<img src="//img.youtube.com/vi/jTuGZJ76rXQ/mqdefault.jpg">
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="right block">
-							<div class="buttons">
-								<button class="prev arrow"><span class="circle"><span class="arrow"></span></span></button>
-								<button class="next arrow"><span class="circle"><span class="arrow"></span></span></button>
-							</div>
-							<div class="tab-cont slide-1 active">
-								<div class="our-works-slider">
-									<div class="slide">
-										<h3>ОКБ «КРИСТАЛЛ»</h3>
-										<p>Для презентации нового топливного насоса, устойчивого к кавитации, мы подготовили очень наглядное сравнение старой и новой модели в действии. Ролик был озвучен на английском языке для демонстрации на международной выставке.</p>
-									</div>
-									<div class="slide">
-										<h3>ОКБ «КРИСТАЛЛ»</h3>
-										<p>Если у самолета отказывает двигатель  - еще не все потеряно, если на нем установлена аварийная турбина, способная восстановить работу гидравлической и электрической сетей самолета. Именно об этом рассказывает 3д анимация, подготовленная для выставки в Гуанчжоу. </p>
-									</div>
-								</div>
-							</div>
-							<div class="tab-cont slide-2">
-								<div class="our-works-slider">
-									<div class="slide">
-										<h3>ПАО СИБУР</h3>
-										<p>Для того, чтобы сотрудники СИБУРа видели, что ИТ-служба неустанно повышает качество своей работы, мы подготовили эту простую и понятную инфографику.</p>
-									</div>
-								</div>
-							</div>
-							<div class="tab-cont slide-3">
-								<div class="our-works-slider">
-									<div class="slide">
-										<h3>Фонд Венчурных Инвестиций</h3>
-										<p>Для привлечения инвестиций в проект по созданию затемняющейся пленки для стекла мы создали 3д-видеоролик, показывающий всю технологию и ее особенности.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="content company clearfix">
-						<div class="left block">
-							<div class="buttons-mobile">
-								<button class="prev arrow"><span class="circle"><span class="arrow"></span></span></button>
-								<button class="next arrow"><span class="circle"><span class="arrow"></span></span></button>
-							</div>
-							<div class="tab-cont slide-1 active">
-								<div class="our-works-slider">
-									<div class="slide">
-										<div class="h2">
-											<h2>ПАО СИБУР</h2>
-										</div>
-										<div class="video">
-											<img src="img/video-lines.png" class="lines" alt="">
-											<div class="video-inner" data-rel='https://www.youtube.com/embed/T_r621g3ZXY'>
-												<img src="//img.youtube.com/vi/T_r621g3ZXY/mqdefault.jpg">
-											</div>
+											<div class="video-inner" data-rel='https://www.youtube.com/embed/ePVd_d-Ikn8' data-img='img/yt-img1.jpg'></div>
 										</div>
 									</div>
 									<div class="slide">
@@ -260,9 +155,7 @@
 										</div>
 										<div class="video">
 											<img src="img/video-lines.png" class="lines" alt="">
-											<div class="video-inner" data-rel='https://www.youtube.com/embed/Ca-fh3dHpm8'>
-												<img src="//img.youtube.com/vi/Ca-fh3dHpm8/mqdefault.jpg">
-											</div>
+											<div class="video-inner" data-rel='https://www.youtube.com/embed/Ca-fh3dHpm8' data-img='img/yt-img2.jpg'></div>
 										</div>
 									</div>
 									<div class="slide">
@@ -271,9 +164,7 @@
 										</div>
 										<div class="video">
 											<img src="img/video-lines.png" class="lines" alt="">
-											<div class="video-inner" data-rel='https://www.youtube.com/embed/ePVd_d-Ikn8'>
-												<img src="//img.youtube.com/vi/ePVd_d-Ikn8/mqdefault.jpg">
-											</div>
+											<div class="video-inner" data-rel='https://www.youtube.com/embed/T_r621g3ZXY' data-img='img/yt-img3.jpg'></div>
 										</div>
 									</div>
 									<div class="slide">
@@ -282,9 +173,7 @@
 										</div>
 										<div class="video">
 											<img src="img/video-lines.png" class="lines" alt="">
-											<div class="video-inner" data-rel='https://www.youtube.com/embed/FdepppIww2I'>
-												<img src="//img.youtube.com/vi/FdepppIww2I/mqdefault.jpg">
-											</div>
+											<div class="video-inner" data-rel='https://www.youtube.com/embed/FdepppIww2I' data-img='img/yt-img4.jpg'></div>
 										</div>
 									</div>
 									<div class="slide">
@@ -293,9 +182,7 @@
 										</div>
 										<div class="video">
 											<img src="img/video-lines.png" class="lines" alt="">
-											<div class="video-inner" data-rel='https://www.youtube.com/embed/MHXyLnxUWcc'>
-												<img src="//img.youtube.com/vi/MHXyLnxUWcc/mqdefault.jpg">
-											</div>
+											<div class="video-inner" data-rel='https://www.youtube.com/embed/MHXyLnxUWcc' data-img='img/yt-img5.jpg'></div>
 										</div>
 									</div>
 								</div>
@@ -308,9 +195,16 @@
 										</div>
 										<div class="video">
 											<img src="img/video-lines.png" class="lines" alt="">
-											<div class="video-inner" data-rel='https://www.youtube.com/embed/I73Elv8xy7Q'>
-												<img src="//img.youtube.com/vi/I73Elv8xy7Q/mqdefault.jpg">
-											</div>
+											<div class="video-inner" data-rel='https://www.youtube.com/embed/I73Elv8xy7Q' data-img='img/yt-img6.jpg'></div>
+										</div>
+									</div>
+									<div class="slide">
+										<div class="h2">
+											<h2>ПАО СИБУР</h2>
+										</div>
+										<div class="video">
+											<img src="img/video-lines.png" class="lines" alt="">
+											<div class="video-inner" data-rel='https://www.youtube.com/embed/ZzTxd-VD6f0' data-img='img/yt-img7.jpg'></div>
 										</div>
 									</div>
 									<div class="slide">
@@ -319,9 +213,7 @@
 										</div>
 										<div class="video">
 											<img src="img/video-lines.png" class="lines" alt="">
-											<div class="video-inner" data-rel='https://www.youtube.com/embed/xN1ceylrv0Q'>
-												<img src="//img.youtube.com/vi/xN1ceylrv0Q/mqdefault.jpg">
-											</div>
+											<div class="video-inner" data-rel='https://www.youtube.com/embed/xN1ceylrv0Q' data-img='img/yt-img8.jpg'></div>
 										</div>
 									</div>
 									<div class="slide">
@@ -330,9 +222,7 @@
 										</div>
 										<div class="video">
 											<img src="img/video-lines.png" class="lines" alt="">
-											<div class="video-inner" data-rel='https://www.youtube.com/embed/vsDO96LwV4w'>
-												<img src="//img.youtube.com/vi/vsDO96LwV4w/mqdefault.jpg">
-											</div>
+											<div class="video-inner" data-rel='https://www.youtube.com/embed/vsDO96LwV4w' data-img='img/yt-img9.jpg'></div>
 										</div>
 									</div>
 								</div>
@@ -341,13 +231,38 @@
 								<div class="our-works-slider">
 									<div class="slide">
 										<div class="h2">
+											<h2>ОКБ «КРИСТАЛЛ»</h2>
+										</div>
+										<div class="video">
+											<img src="img/video-lines.png" class="lines" alt="">
+											<div class="video-inner" data-rel='https://www.youtube.com/embed/y4iMeHDJnb0' data-img='img/yt-img10.jpg'></div>
+										</div>
+									</div>
+									<div class="slide">
+										<div class="h2">
+											<h2>Фонд Венчурных Инвестиций</h2>
+										</div>
+										<div class="video">
+											<img src="img/video-lines.png" class="lines" alt="">
+											<div class="video-inner" data-rel='https://www.youtube.com/embed/jTuGZJ76rXQ' data-img='img/yt-img11.jpg'></div>
+										</div>
+									</div>
+									<div class="slide">
+										<div class="h2">
+											<h2>ОКБ «КРИСТАЛЛ»</h2>
+										</div>
+										<div class="video">
+											<img src="img/video-lines.png" class="lines" alt="">
+											<div class="video-inner" data-rel='https://www.youtube.com/embed/Uzk6popAwNM' data-img='img/yt-img12.jpg'></div>
+										</div>
+									</div>
+									<div class="slide">
+										<div class="h2">
 										<h2>Трансэл</h2>
 										</div>
 										<div class="video">
 											<img src="img/video-lines.png" class="lines" alt="">
-											<div class="video-inner" data-rel='https://www.youtube.com/embed/V9QDSHn4A_w'>
-												<img src="//img.youtube.com/vi/V9QDSHn4A_w/mqdefault.jpg">
-											</div>
+											<div class="video-inner" data-rel='https://www.youtube.com/embed/V9QDSHn4A_w' data-img='img/yt-img13.jpg'></div>
 										</div>
 									</div>
 								</div>
@@ -362,7 +277,7 @@
 								<div class="our-works-slider">
 									<div class="slide">
 										<h3>ПАО СИБУР</h3>
-										<p>Чтобы сделать зрелищный ролик об одном из основных заводов СИБУРа мы совместили съемки, инфографику и 3д-графику и получился реальный документальный фильм о предприятии.</p>
+										<p>С помощью съемок с коптера мы показали красоту Приобского края и индустриального пейзажа нового совместного предприятия Газпромнефть и СИБУРа</p>
 									</div>
 									<div class="slide">
 										<h3>Хуавей</h3>
@@ -370,7 +285,7 @@
 									</div>
 									<div class="slide">
 										<h3>ПАО СИБУР</h3>
-										<p>С помощью съемок с коптера мы показали красоту Приобского края и индустриального пейзажа нового совместного предприятия Газпромнефть и СИБУРа</p>
+										<p>Чтобы сделать зрелищный ролик об одном из основных заводов СИБУРа мы совместили съемки, инфографику и 3д-графику и получился реальный документальный фильм о предприятии.</p>
 									</div>
 									<div class="slide">
 										<h3>Nayada</h3>
@@ -389,6 +304,10 @@
 										<p>К 20-летию компании СИБУР мы подготовили наглядную инфографику про изменения, которые произошли за это время.</p>
 									</div>
 									<div class="slide">
+										<h3>ПАО СИБУР</h3>
+										<p>Для того, чтобы сотрудники СИБУРа видели, что ИТ-служба неустанно повышает качество своей работы, мы подготовили эту простую и понятную инфографику.</p>
+									</div>
+									<div class="slide">
 										<h3>ПАО Россети</h3>
 										<p>Для Петербургского международного экономического форума мы в супер сжатые сроки подготовили 4-минутный инфографический ролик-презентацию ПАО Россети</p>
 									</div>
@@ -400,6 +319,18 @@
 							</div>
 							<div class="tab-cont slide-3">
 								<div class="our-works-slider">
+									<div class="slide">
+										<h3>ОКБ «КРИСТАЛЛ»</h3>
+										<p>Если у самолета отказывает двигатель  - еще не все потеряно, если на нем установлена аварийная турбина, способная восстановить работу гидравлической и электрической сетей самолета. Именно об этом рассказывает 3д анимация, подготовленная для выставки в Гуанчжоу. </p>
+									</div>
+									<div class="slide">
+										<h3>Фонд Венчурных Инвестиций</h3>
+										<p>Для привлечения инвестиций в проект по созданию затемняющейся пленки для стекла мы создали 3д-видеоролик, показывающий всю технологию и ее особенности.</p>
+									</div>
+									<div class="slide">
+										<h3>ОКБ «КРИСТАЛЛ»</h3>
+										<p>Для презентации нового топливного насоса, устойчивого к кавитации, мы подготовили очень наглядное сравнение старой и новой модели в действии. Ролик был озвучен на английском языке для демонстрации на международной выставке.</p>
+									</div>
 									<div class="slide">
 										<h3>Трансэл</h3>
 										<p>Как выделиться среди множества компаний с аналогичным бизнесом? Ответ прост:  использовать  новый, более зрелищный способ показать логистический процесс.</p>
@@ -519,9 +450,7 @@
 							<div class="right block">
 								<div class="video">
 									<img src="img/reviews-lines.png" class="lines" alt="">
-									<div class="video-inner" data-rel='https://www.youtube.com/embed/fE94pQvsv84'>
-										<img src="//img.youtube.com/vi/fE94pQvsv84/mqdefault.jpg">
-									</div>
+									<div class="video-inner" data-rel='https://www.youtube.com/embed/fE94pQvsv84' data-img='img/yt-img14.jpg'></div>
 								</div>
 							</div>
 							<div class="mobile-desc left">
@@ -547,9 +476,7 @@
 							<div class="right block">
 								<div class="video">
 									<img src="img/reviews-lines.png" class="lines" alt="">
-									<div class="video-inner" data-rel='https://www.youtube.com/embed/uAgkXnIjVJU'>
-										<img src="//img.youtube.com/vi/uAgkXnIjVJU/mqdefault.jpg">
-									</div>
+									<div class="video-inner" data-rel='https://www.youtube.com/embed/uAgkXnIjVJU' data-img='img/yt-img15.jpg'></div>
 								</div>
 							</div>
 							<div class="mobile-desc left">
@@ -575,9 +502,7 @@
 							<div class="right block">
 								<div class="video">
 									<img src="img/reviews-lines.png" class="lines" alt="">
-									<div class="video-inner" data-rel='https://www.youtube.com/embed/erkYk1ttVps'>
-										<img src="//img.youtube.com/vi/erkYk1ttVps/mqdefault.jpg">
-									</div>
+									<div class="video-inner" data-rel='https://www.youtube.com/embed/erkYk1ttVps' data-img='img/yt-img16.jpg'></div>
 								</div>
 							</div>
 							<div class="mobile-desc left">
@@ -605,17 +530,13 @@
 						<div class="left block">
 							<div class="video">
 								<span class="accent">Потерянный бюджет</span>
-								<div class="video-inner" data-rel='https://www.youtube.com/embed/SSc-b9xe0g8'>
-									<img src="//img.youtube.com/vi/SSc-b9xe0g8/mqdefault.jpg">
-								</div>
+								<div class="video-inner" data-rel='https://www.youtube.com/embed/SSc-b9xe0g8' data-img='img/yt-img17.jpg'></div>
 							</div>
 						</div>
 						<div class="right block">
 							<div class="video">
 								<span class="accent">Оптимальный вариант</span>
-								<div class="video-inner" data-rel='https://www.youtube.com/embed/sCtz5mvNYPo'>
-									<img src="//img.youtube.com/vi/sCtz5mvNYPo/mqdefault.jpg">
-								</div>
+								<div class="video-inner" data-rel='https://www.youtube.com/embed/sCtz5mvNYPo' data-img='img/yt-img18.jpg'></div>
 							</div>
 						</div>
 					</div>
@@ -641,7 +562,7 @@
 								<input type="hidden" name="event" value="form2">
 								<input type="hidden" name="frmid" value="Форма 'Запишитесь на вебинар'"> 
 								<input type="text" placeholder="Имя" name="name">
-								<input type="text" placeholder="Телефон" name="phone"><br>
+								<input type="text" placeholder="E-mail" name="mail"><br>
 								<button class="main"><span>Отправить</span></button>
 							</div>
 						</form>
@@ -822,21 +743,31 @@
 							</div>
 						</form>
 						<div class="bottom hidden">
-						<div class="inner clearfix">
-							<div class="left block">
-								<ul class="social">
-									<li><a href="#"></a></li>
-									<li><a href="#"></a></li>
-									<li><a href="#"></a></li>
-								</ul>
-							</div>
-							<div class="right block">
-								<span class="white">© 2016 · All rights reserved</span>
+							<div class="inner clearfix">
+								<div class="left block">
+									<ul class="social">
+										<li><a href="#"></a></li>
+										<li><a href="#"></a></li>
+										<li><a href="#"></a></li>
+									</ul>
+								</div>
+								<div class="right block">
+									<span class="white">© 2016 · All rights reserved</span>
+								</div>
 							</div>
 						</div>
 					</div>
-					</div>
 				</div>
+				<div class="bottom bottom-line">
+						<div class="left block">
+							<a href="#confidence" class="popup">Политика конфиденциальности</a>
+						</div>
+						<div class="right block">
+							<a href="http://xn----btbjbbbyrp3a9e7bu.xn--p1ai/" class="logo">
+								<img src="img/blackswan-logo.png" alt="">
+							</a>
+						</div>
+					</div>
 			</div>
 		</div>
 	</section>
@@ -864,8 +795,8 @@
 				<div class="form-inner">
 					<input type="hidden" name="event" value="form6">
 					<input type="hidden" name="frmid" value="Форма попап 'Получить предложение'"> 
-					<input type="text" placeholder="Имя" name="name">
-					<input type="text" placeholder="Телефон" name="phone"><br>
+					<input type="text" placeholder="Название компании" name="name">
+					<input type="text" placeholder="E-mail" name="mail"><br>
 					<button class="main"><span>Получить предложение</span></button>
 				</div>
 			</form>
@@ -895,6 +826,11 @@
 				Заявка успешно отправлена!<br>
 				С вами свяжутся в ближайшее время
 			</div>
+		</div>
+
+		<div id="confidence" class="confidence popup-form">
+			<button class="arrow close"><span class="circle"><span class="arrow"></span></span></button>
+			<p>Данное соглашение об обработке персональных данных разработано в соответствии с законодательством Российской Федерации. Все лица заполнившие сведения, составляющие персональные данные на данном сайте, а также разместившие иную информацию обозначенными действиями подтверждают свое согласие на обработку персональных данных и их передачу оператору обработки персональных данных. Под персональными данными Гражданина понимается нижеуказанная информация: общая информация (Имя и адрес электронной почты); посетители сайта направляют свои персональные данные для получения доступа к бесплатным видеоматериалам. Гражданин, принимая настоящее Соглашение, выражают свою заинтересованность и полное согласие, что обработка их персональных данных может включать в себя следующие действия: сбор, систематизацию, накопление, хранение, уточнение (обновление, изменение), использование, уничтожение. Гражданин гарантирует: информация, им предоставленная, является полной, точной и достоверной; при предоставлении информации не нарушается действующее законодательство Российской Федерации, законные права и интересы третьих лиц; вся предоставленная информация заполнена Гражданина в отношении себя лично.</p>
 		</div>
 	</div>
 
