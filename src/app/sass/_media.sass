@@ -3,7 +3,12 @@
 
 /*==========  Desktop First  ==========*/
 
-/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1380px)
+	.video-popup
+		iframe
+			width: 640px
+			height: 480px
+
 @media only screen and (max-width : 1140px)
 	.wrapper-inner.bg
 		&:before
@@ -56,8 +61,8 @@
 				max-height: 370px
 				height: 370px
 			button.arrow
-				top: auto
-				bottom: -50px
+				top: auto!important
+				bottom: 0
 				left: 50%
 				margin-left: -70px
 				&.next
@@ -157,34 +162,99 @@
 		.google-map
 			width: 100%
 
+@media only screen and (max-height : 800px)
+	section.our-works 
+		.inner
+			margin-top: 60px
+	section.application
+		h3
+			font-size: 26px
+			margin: 0 auto 10px
+		span.accent 
+			margin-bottom: 10px
+			font-size: 20px
+		form
+			height: 290px
+		.buttons
+			padding-top: 15px
+
 @media only screen and (max-height : 720px)
+	h2
+		font-size: 26px
+	span.accent
+		font-size: 20px
 	.wrapper-inner.bg:after
 		height: 100vh
 		min-height: 600px
-		top: 0
+		top: -18px
 	section.our-works
 		.inner
 			margin-top: 100px
+		h3
+			font-size: 26px
+			margin-bottom: 10px
 	section.application
 		.wrapper-inner
 			padding-top: 100px
+		form
+			height: 250px
+			h2
+				font-size: 19px
+				min-height: auto
 	section.reviews
+		span.accent
+			max-width: 500px
 		.inner
-			margin-top: 80px
+			margin-top: 120px
+			.block
+				margin-top: 0
+				height: 350px
+				&.right
+					margin: 0
+					height: auto
+				.video-inner
+					
 			h2
 				margin: 20px 0 10px
 		.block
 			margin-top: 50px
+			
+		.left 
+			p
+				line-height: 1.3
 		.reviews-slider button.arrow
-			bottom: -20px
+			top: 35px
+
+	section.you-need
+		.inner
+			margin-top: 120px
+		h2
+			max-width: 350px
+		.content .content-inner
+			min-height: 260px
+			h3
+				margin-bottom: 20px
+			.step
+				padding-top: 20px
+			span.title
+				margin-bottom: 20px
+				line-height: 1.4
+			.form
+				padding-bottom: 35px
 	section.costs .wrapper-inner
 		padding-top: 110px
 		.inner
 			margin-top: 10px
+		h3
+			margin-top: 0
 	section.company .inner
-		margin-top: 100px
+		margin-top: 80px
 	section.leading .inner
 		margin-top: 110px
+		h2
+			margin-bottom: 45px
+		.block
+			margin-bottom: 35px
 	section.faq .inner
 		margin-top: 130px
 		h2
@@ -193,13 +263,48 @@
 		margin-top: 105px
 
 	.confidence
-		height: 100vh
 		overflow: auto
 		padding: 70px 30px!important
 		button.close
 			position: absolute
 			top: 15px
 			right: 15px
+
+@media only screen and (max-height : 520px)
+	.confidence
+		height: 100vh
+
+@media only screen and (max-width : 750px)
+	.video-popup
+		display: block
+		width: 100%
+		iframe
+			width: 100%!important
+			height: 320px!important
+	.mfp-content.mfp-popup
+		padding: 70px 20px
+
+@media only screen and (max-height : 968px)
+	.video-popup
+		iframe
+			width: 640px
+			height: 400px
+
+
+
+@media only screen and (max-height : 690px)
+	.video-popup
+		iframe
+			width: 640px
+			height: 400px
+	.mfp-content.mfp-popup
+		padding: 70px 20px
+
+@media only screen and (max-height : 547px)
+	.video-popup
+		iframe
+			width: 500px
+			height: 300px
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px)
@@ -284,69 +389,44 @@
 			position: static!important
 			.block
 				width: 33.333%
+		.bottom-line
+			display: none!important
 		.button
 			position: static
 			margin-top: 60px
 
 	section.our-works
 		padding: 0
+		h3
+			font-size: 18px
+			line-height: 26px
+			margin-bottom: 30px
 		.wrapper-inner
 			padding: 50px 0
 		.inner
 			margin-top: 0
-		.top .block
-			padding: 0 40px
-			width: 100%
-			h2
-				text-align: left
-				max-width: 388px
-				margin: 5px auto 15px
-				font-size: 21px
-			.tabs
-				text-align: center
-				margin-bottom: 15px
-				.tab
-					font-size: 13px
-					padding: 8px 5px
-					min-width: 125px
-					margin-right: 2px
-					&:nth-of-type(3)
-						margin-right: 0
 		.content
-			margin-top: 15px
 			.block
 				width: 100%
-			.tab-cont 
-				margin: 0
-				max-height: none
-				h2
-					max-width: 450px
-					margin: auto
-				.video
-					max-width: 450px
-					margin: 10px auto
-					.video-inner
-						max-width: none
-						height: 230px
-		.buttons
-			display: none
-			&-mobile
+			.video
+				display: none
+			.works-slider
 				display: block
-				position: absolute
-				top: 50%
-				margin-top: -10px
-				left: 50%
-				margin-left: -225px
-				text-align: center
-				width: 100%
-				max-width: 450px
-				button
-					span.circle:after
-						display: none
-				button.prev
-					float: left
-				button.next
-					float: right
+				.video
+					display: block
+				button.arrow
+					bottom: auto
+					top: 50%
+					margin: -25px 0 0
+					position: absolute
+					&.prev
+						left: 10px
+					&.next
+						left: auto
+						right: 10px
+				.left
+					max-height: none
+					height: auto
 	
 	section.application
 		padding: 30px 0
@@ -415,6 +495,19 @@
 				display: block
 			button
 				margin: 10px auto 0
+		.bottom-line
+			position: relative
+			margin-top: 30px
+			.block
+				width: 100%
+				a 
+					margin-top: 10px
+			.block.right 
+				a
+					width: 150px
+					img
+						max-height: none
+						width: 100%
 
 	section.reviews
 		background-color: #1d1f2f
@@ -435,7 +528,7 @@
 		.reviews-slider
 			button.arrow
 				bottom: auto
-				top: 140px
+				top: 120px!important
 				&.prev
 					margin-left: -240px
 				&.next
@@ -478,7 +571,7 @@
 				line-height: 23px
 				&:after
 					bottom: 30px
-		.right
+		.right.block
 			width: 100%
 			float: none
 			margin-top: 15px
@@ -681,6 +774,7 @@
 			display: block
 			background-color: transparent
 			padding: 0
+			display: block
 			.left
 				text-align: left
 			.right

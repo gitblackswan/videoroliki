@@ -1,0 +1,768 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"gre",
+				"greeting"
+			],
+			[
+				"tal",
+				"ta-l\ttext-align: left;"
+			],
+			[
+				"bgzc",
+				"bgsz-cv\tbackground-size: cover;"
+			],
+			[
+				"rem",
+				"removeClass"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"s",
+				"someObj"
+			],
+			[
+				"container",
+				"container__item"
+			],
+			[
+				"h",
+				"href"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"t",
+				"t\ttop"
+			],
+			[
+				"field",
+				"field"
+			],
+			[
+				"inli",
+				"inline-block\t(index.jade)"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"m",
+				"margin"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/User/Desktop/Projects/BlackSwan/video/dist/index.php",
+			"settings":
+			{
+				"buffer_size": 50180,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sass/_base.sass",
+			"settings":
+			{
+				"buffer_size": 5966,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "header.sass",
+			"settings":
+			{
+				"buffer_size": 6908,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/main.sass",
+			"settings":
+			{
+				"buffer_size": 17718,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/_media.sass",
+			"settings":
+			{
+				"buffer_size": 16735,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "ins",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/User/Desktop/Projects/BlackSwan/video/dist/index.html",
+		"/C/Users/User/Desktop/Projects/BlackSwan/video/app/index.html",
+		"/C/Users/User/Desktop/Projects/Vitaliy/delonghi new/sites/all/themes/shop/css/unimagazin_s1_new.css",
+		"/C/Users/User/Desktop/Projects/Vitaliy/delonghi new/sites/all/themes/shop/js/shop.js",
+		"/C/Users/User/Desktop/Projects/Vitaliy/delonghi new/closed-catalog.html",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-spacer-1/page1Success.php",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-spacer-2/config.json",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-spacer-1/config.json",
+		"/C/Users/User/Desktop/Projects/Maks/template/spacer/config.json",
+		"/C/Users/User/Desktop/Projects/Maks/template/spacer_config/Прокладка с детектом города.json",
+		"/C/Users/User/Desktop/Projects/Maks/example/spacer/config.json",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-1-1/page1Success.php",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-1-3/page1Success.php",
+		"/C/Users/User/Desktop/Projects/Maks/SPACER.txt",
+		"/C/Users/User/Desktop/Projects/Maks/LANDING.txt",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-1-2/page1Success.php",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-2-1/static/css/style.css",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-spacer-1/static/css/index.css",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-spacer-2/page1Success.php",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-2-1/static/css/privacy.css",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-spacer-1/static/css/css.css",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-3-1/page1Success.php",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-3-2/page1Success.php",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-2-1/page1Success.php",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-2-2/page1Success.php",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-1-3/static/css/style.css",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-1-1/static/css/style.css",
+		"/C/Users/User/AppData/Local/Temp/scp48942/www/lp1.migliori.ru/index.html",
+		"/C/Users/User/Desktop/Projects/Vitaliy/delonghi new/card.html",
+		"/C/Users/User/Desktop/Projects/Vitaliy/delonghi new/buys.html",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-1-1/page2Success.php",
+		"/C/Users/User/AppData/Local/Temp/scp45592/www/lp1.migliori.ru/index.html",
+		"/C/Users/User/Desktop/Projects/Vitaliy/delonghi new/landing-1.html",
+		"/C/Users/User/Desktop/Projects/Vitaliy/delonghi new/cart.html",
+		"/C/Users/User/Desktop/Projects/Vitaliy/delonghi new/catalog-all.html",
+		"/C/Users/User/Desktop/Projects/Vitaliy/delonghi new/catalog.html",
+		"/C/Users/User/Desktop/Projects/Vitaliy/delonghi new/index.html",
+		"/C/Users/User/AppData/Local/Temp/Rar$DIa0.261/Внимание!.txt",
+		"/C/Users/User/Desktop/Projects/Vitaliy/delonghi/catalog-main.html",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-1-2/static/css/style.css",
+		"/C/Users/User/Desktop/Projects/BlackSwan/video/app/sass/_media.sass",
+		"/C/Users/User/Desktop/Projects/BlackSwan/video/app/sass/main.sass",
+		"/C/Users/User/AppData/Local/Temp/scp02109/domains/zaynulin.ru/new-video/index.php",
+		"/C/Users/User/Desktop/Projects/BlackSwan/video/dist/index.php",
+		"/C/Users/User/Desktop/Projects/BlackSwan/video/app/header.sass",
+		"/C/Users/User/Desktop/Projects/BlackSwan/video/app/js/common.js",
+		"/C/Users/User/Desktop/Projects/ES6/dist/script.js",
+		"/C/Users/User/Desktop/Projects/ES6/src/script.js",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-spacer/page1Success.php",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-2-dominator-sprey/static/css/style.css",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-1/page1Success.php",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-3-dominator-sprey-2/page1Success.php",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-2-dominator-sprey/page1Success.php",
+		"/C/Users/User/AppData/Local/Temp/scp31016/www/lp2.migliori.ru/sendmail.php",
+		"/C/Users/User/AppData/Local/Temp/scp32631/www/lp1.migliori.ru/sendmail.php",
+		"/C/Users/User/AppData/Local/Temp/scp41682/www/lp2.migliori.ru/sendmail.php",
+		"/C/Users/User/AppData/Local/Temp/scp45524/www/lp2.migliori.ru/amocrm_api.php",
+		"/C/Users/User/AppData/Local/Temp/scp45208/www/lp2.migliori.ru/aramba_api_class.php",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-3-dominator-sprey/static/css/style.css",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-3-dominator-sprey/page1Success.php",
+		"/C/Users/User/AppData/Local/Temp/scp40322/www/lp1.migliori.ru/sendmail.php",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-1/static/css/style.css",
+		"/F/Resident Evil 7 by xatab/информация.txt",
+		"/C/Users/User/Desktop/Projects/ES6/package.json",
+		"/C/Users/User/AppData/Local/Temp/scp08440/www/lp2.migliori.ru/index.html",
+		"/C/Users/User/AppData/Local/Temp/scp13519/www/lp1.migliori.ru/index.html",
+		"/C/Downloads/kod_na_vsekh_stranitsakh_vashego_sayta_vnutri_tega_body (1).txt",
+		"/C/Downloads/esli_sdelki_esche_ne_sozdayutsya_avtomaticheski (1).txt",
+		"/C/Downloads/Esli_sdelki_uzhe_sozdayutsya_avtomaticheski.txt",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-2-dominator/static/css/style.css",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-2-dominator/page1Success.php",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/spacer/page1Success.php",
+		"/C/Users/User/Desktop/Projects/lp1.migliori.ru/index.html",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/spacer/static/css/index.css",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/spacer/static/css/css.css",
+		"/C/Users/User/Desktop/Projects/Maks/example/spacer/page1Success.php",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/spacer/index.html",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-4-dominator-sprey-2/page1Success.php",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-4-dominator-sprey-2/static/css/style.css",
+		"/C/Users/User/Desktop/Projects/Maks/lib/css/l_all.css",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-4-dominator-sprey-2/config.json",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-4-dominator-sprey-2/static/js/index.js",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-4-dominator-sprey-2/static/css/popup.css",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/dezintox/config.json",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-4-dominator-sprey-2/index.html",
+		"/C/Users/User/AppData/Local/Temp/scp09260/www/lp2.migliori.ru/js/script.js",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/e.dominator.gigant-dick.ru/index.html",
+		"/C/Users/User/AppData/Local/Temp/scp13972/www/lp1.migliori.ru/amocrm_api.php",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-3-dominator-sprey/config.json",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-3-dominator-sprey/static/js/index.js",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-3-dominator-sprey/page2Success.php",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-3-dominator-sprey/static/css/privacy.css",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-2-dominator/config.json",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/c1.dominator.gigant-dick.ru/js/index.js",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-2-dominator/static/js/index.js",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/g.dominator.gigant-dick.ru/page1Success.php",
+		"/C/Users/User/Desktop/Projects/Maks/example/landing/page1Success.php",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/g.dominator.gigant-dick.ru/static/js/index.js",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-2-dominator/privacy.html",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/g.dominator.gigant-dick.ru/page2Success.php",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/g.dominator.gigant-dick.ru/static/css/privacy-css.css",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-2-dominator/index.html",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/g.dominator.gigant-dick.ru/static/css/everad.css",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/g.dominator.gigant-dick.ru/index.js",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/dezintox/page1Success.php",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gelFirst/static/js/script.js",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gelFirst/page1Success.php",
+		"/C/Users/User/Desktop/Projects/Maks/lib/Wiev.php",
+		"/C/Users/User/AppData/Local/Temp/scp06418/domains/lands.u1847.blue.elastictech.org/workspace/gelFirst/static/js/script.js",
+		"/C/Downloads/esli_sdelki_esche_ne_sozdayutsya_avtomaticheski.txt",
+		"/C/Users/User/AppData/Local/Temp/scp49561/www/lp2.migliori.ru/js/script.js",
+		"/C/Users/User/AppData/Local/Temp/scp48610/www/lp2.migliori.ru/index.html",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/gel-1/static/js/script.js",
+		"/C/Users/User/AppData/Local/Temp/scp50537/www/lp2.migliori.ru/script.js",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/g.dominator.gigant-dick.ru/index.html",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/ae.penbuild-gel.com/page1Success.php",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/ae.penbuild-gel.com/page2Success.php",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/ae.penbuild-gel.com/files/_default/privacypolicy/RU/css/style.css",
+		"/C/Users/User/Desktop/Projects/Maks/workspace/ae.penbuild-gel.com/index.html",
+		"/C/Users/User/Desktop/Data/omnicpa.txt",
+		"/C/Users/User/AppData/Local/Temp/scp13372/www/lp2.migliori.ru/amo/amocrm.api.php",
+		"/C/Users/User/AppData/Local/Temp/scp13957/www/lp2.migliori.ru/amo.goal.php",
+		"/C/Users/User/AppData/Local/Temp/scp14676/www/lp2.migliori.ru/amocrm_api.php",
+		"/C/Users/User/AppData/Local/Temp/scp15953/www/lp2.migliori.ru/aramba_api_class.php",
+		"/C/Users/User/AppData/Local/Temp/scp01546/www/lp2.migliori.ru/index.html",
+		"/C/Users/User/AppData/Local/Temp/scp06769/www/lp2.migliori.ru/css/style.css",
+		"/C/Users/User/AppData/Local/Temp/scp12115/www/lp2.migliori.ru/sendmail.php",
+		"/C/Users/User/AppData/Local/Temp/scp13574/www/lp2.migliori.ru/js/script.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 105.0,
+		"where_history":
+		[
+			"C:\\Users\\User\\Desktop\\Maks\\web\\workspace\\dezintox\\js"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"../",
+			"/>",
+			"span.h1-subtitle",
+			"span.h1-subtitle ",
+			"720",
+			"h3",
+			"mobile-filters-close",
+			".mobile-filters-close",
+			"mobile-filters-close",
+			".mobile-menu ul,.mobile-filters .mobile-filters-inner",
+			".mobile-menu ul, .mobile-filters .mobile-filters-inner",
+			"catalog-button",
+			"resize()",
+			"geo",
+			"800",
+			".paginator .static .buttons .button.ui-state-current",
+			"best",
+			".best ",
+			"best",
+			"header > ul > li",
+			"order",
+			".wrapper > aside",
+			".order",
+			".sidebar .author ul",
+			"распы",
+			"крем",
+			"гель",
+			"geo",
+			"header > ul > li",
+			"height: 4462px;",
+			"Титан Гелем",
+			"Крем",
+			"Гель",
+			"%",
+			"спр",
+			"%",
+			"спре",
+			"влажным",
+			"крем",
+			"ГЕЛЬ",
+			".block7 .title",
+			"максиса",
+			"text-d",
+			"Е",
+			"200",
+			"Максисаз",
+			"Максисаз ",
+			"order",
+			"крем",
+			"Гель",
+			"prices",
+			"HelveticaNeueCyr",
+			"санкт",
+			".v",
+			".r",
+			"uni-ta",
+			"filters",
+			".item_description",
+			"Helvetica",
+			"автоматические коф",
+			"<span class=\"stock-logo\">\n                    <img src=\"sites/all/themes/shop/images/stock-logo.png\" alt=\"\">\n                  </span>",
+			".landing-container .best-item",
+			"best",
+			"h1",
+			"neu",
+			"<!-- Begin -->",
+			"<!-- End -->",
+			".best-item",
+			".landing-container .best-item",
+			".landing-container .best-item ",
+			"#h-search",
+			"logo",
+			"catalog-section",
+			"max-width",
+			"Dominator",
+			"спрей",
+			"спрея",
+			"спреев",
+			"крем",
+			"крема",
+			"спреев",
+			"спрея",
+			"спрей",
+			"Dominator",
+			"Титан Гель",
+			"dom",
+			"вщь",
+			"Titan Gel",
+			"Спрей",
+			"Dominator",
+			"Доминатор",
+			"Гель",
+			"Спрей",
+			"Dominator",
+			"СПРЕЙ",
+			"КРЕМ",
+			"СПРЕЙ",
+			"Dominator",
+			"Titan Gel",
+			"гель",
+			"TITAN GEL",
+			"крем",
+			".footer a",
+			"footer",
+			"../",
+			"header > p",
+			".forth_scr",
+			".forth_scr ",
+			"header>p",
+			"header > p",
+			"2017",
+			"2016",
+			"geo",
+			"руб.",
+			"footer",
+			"крем",
+			"март",
+			"item",
+			"ifram",
+			"font",
+			"http://1.gigant-dick.ru/",
+			"../179523.selcdn.com/landings-2-production/81/",
+			"h2",
+			"%",
+			"990",
+			"price",
+			"<form",
+			"my_timer"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"крем",
+			"XXL Power Life",
+			"крем",
+			"Helvetica",
+			"'Helvetica'",
+			"'HelveticaNeueCyr'",
+			"'Helvetica Neue'",
+			"",
+			"XXL Power Life",
+			"крем",
+			"крема",
+			"кремов",
+			"гель",
+			"геля",
+			"гелей",
+			"крема",
+			"крем",
+			"Titan Gel",
+			"XXL Power Life",
+			"крем",
+			"XXL Power Life",
+			"гель",
+			"Titan Gel",
+			"XXL Power Life",
+			"крем",
+			"гель",
+			"крем",
+			"Titan Gel",
+			"HYDROMAX",
+			"крем",
+			"XXL Power Life",
+			"",
+			"руб",
+			"{{url}}",
+			"{{file_path}}",
+			"",
+			"{{file_path}}",
+			"42540969",
+			"{{file_path}}",
+			"Dezintox",
+			"img/",
+			"",
+			"src=\"{{file_path}}",
+			"href=\"{{file_path}}",
+			"img/",
+			"img",
+			"",
+			"<img src=\"img/",
+			"",
+			"href=\"{{file_path}}",
+			"src=\"{{file_path}}",
+			"src=\"",
+			"href=\"",
+			"btn-white",
+			"mail.php",
+			"",
+			"<div class=\"video-desc\">\n\t\t\t\t\t\t\t<h3>",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/User/Desktop/Projects/BlackSwan/video/dist/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 50180,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11524,
+								11524
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5359.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "sass/_base.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5966,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5435,
+								5435
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5363.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "header.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6908,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5563,
+								5563
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 4129.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "sass/main.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17718,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2097,
+								2097
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1944.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "sass/_media.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16735,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3087,
+								3087
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 3121.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "video.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\User\\Desktop\\Projects\\Vitaliy\\delonghi new\\sites\\all\\themes\\shop\\js\\shop.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
